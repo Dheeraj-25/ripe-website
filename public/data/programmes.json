@@ -1,0 +1,86 @@
+[
+  {
+    "id": "sustainable-livestock",
+    "title": "Sustainable Livestock Development",
+    "category": "Sustainable Livelihoods",
+    "short_desc": "Empowering rural communities through improved livestock management and breeding practices.",
+    "long_desc": "Our Sustainable Livestock Development programme focuses on enhancing the productivity and health of livestock through scientific breeding, veterinary care, and training. We work with smallholder farmers to improve breeds, establish fodder banks, and create sustainable income streams through dairy and animal husbandry.",
+    "image": "programme-livestock.jpg",
+    "impact": {
+      "families_reached": 450000,
+      "villages": 2100,
+      "income_increase": "35%"
+    },
+    "read_more_url": "/programmes/sustainable-livestock"
+  },
+  {
+    "id": "water-centric-agriculture",
+    "title": "Water-Centric Agriculture",
+    "category": "Sustainable Livelihoods",
+    "short_desc": "Building climate-resilient farming through watershed management and water conservation.",
+    "long_desc": "The Water-Centric Agriculture programme implements integrated watershed management to ensure sustainable water use in agriculture. Through community participation, we develop water harvesting structures, promote drip irrigation, and train farmers in water-efficient farming practices.",
+    "image": "programme-water.jpg",
+    "impact": {
+      "families_reached": 320000,
+      "villages": 1800,
+      "water_structures": 3500
+    },
+    "read_more_url": "/programmes/water-centric-agriculture"
+  },
+  {
+    "id": "climate-adaptation",
+    "title": "Climate Adaptation Strategies",
+    "category": "Climate Action",
+    "short_desc": "Helping communities adapt to climate change through resilient agricultural practices.",
+    "long_desc": "Our Climate Adaptation programme equips farmers with knowledge and tools to cope with changing climate patterns. We promote climate-resilient crops, agroforestry, and sustainable land management practices that reduce vulnerability to droughts and floods.",
+    "image": "programme-climate.jpg",
+    "impact": {
+      "families_reached": 280000,
+      "hectares_covered": 125000,
+      "trees_planted": 2500000
+    },
+    "read_more_url": "/programmes/climate-adaptation"
+  },
+  {
+    "id": "agro-biodiversity",
+    "title": "Agro-Biodiversity Conservation",
+    "category": "Climate Action",
+    "short_desc": "Preserving indigenous seeds and promoting biodiversity in farming systems.",
+    "long_desc": "The Agro-Biodiversity Conservation initiative focuses on protecting traditional crop varieties and promoting diverse farming systems. We establish community seed banks, train farmers in seed conservation, and advocate for biodiversity-friendly agricultural policies.",
+    "image": "programme-biodiversity.jpg",
+    "impact": {
+      "seed_varieties": 350,
+      "seed_banks": 120,
+      "farmers_trained": 45000
+    },
+    "read_more_url": "/programmes/agro-biodiversity"
+  },
+  {
+    "id": "farm-based-livelihoods",
+    "title": "Farm-Based Livelihoods",
+    "category": "Sustainable Livelihoods",
+    "short_desc": "Enhancing farm productivity through organic practices and crop diversification.",
+    "long_desc": "Farm-Based Livelihoods programme promotes sustainable and profitable farming through organic methods, integrated farming systems, and market linkages. We support farmers in adopting scientific practices that improve soil health, crop yields, and farm incomes.",
+    "image": "programme-farming.jpg",
+    "impact": {
+      "families_reached": 380000,
+      "organic_farmers": 95000,
+      "income_increase": "42%"
+    },
+    "read_more_url": "/programmes/farm-based-livelihoods"
+  },
+  {
+    "id": "education-skilling",
+    "title": "Education & Skills Development",
+    "category": "Education & Skilling",
+    "short_desc": "Building capacities through education and vocational training for rural youth.",
+    "long_desc": "Our Education & Skills Development programme provides quality education and vocational training to rural youth and women. Through skill-building courses, digital literacy, and entrepreneurship training, we prepare communities for sustainable livelihoods.",
+    "image": "programme-education.jpg",
+    "impact": {
+      "youth_trained": 25000,
+      "training_centers": 45,
+      "employment_rate": "78%"
+    },
+    "read_more_url": "/programmes/education-skilling"
+  }
+]
