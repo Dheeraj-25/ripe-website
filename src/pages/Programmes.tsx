@@ -23,10 +23,28 @@ const Programmes = () => {
       .catch((err) => console.error("Error loading programmes:", err));
   }, []);
 
-  const categories = ["All", "Agriculture & Livelihoods", "Water & Natural Resource Management", "Climate Resilience & Environmental Action","Education, Skilling & Entrepreneurship","Health, Nutrition & Sanitation","Governance, Research & Monitoring","Social Empowerment & Community Engagement","Technology & Data Systems"];
+
+
+  // Dynamically generate unique categories from programmes data
+  const categories = [
+    "All",
+    ...Array.from(
+      new Set(
+        programmes
+          .map((p) => p.category && p.category.trim())
+          .filter((cat) => !!cat)
+      )
+    ),
+  ];
 
   const filteredProgrammes =
-    filter === "All" ? programmes : programmes.filter((p) => p.category === filter);
+    filter === "All"
+      ? programmes
+      : programmes.filter(
+          (p) =>
+            p.category &&
+            p.category.trim().toLowerCase() === filter.trim().toLowerCase()
+        );
 
   return (
     <div className="min-h-screen flex flex-col">
