@@ -19,7 +19,7 @@ const slides: Slide[] = [
     subtitle: "Building sustainable livelihoods through innovative agricultural practices and community development",
     cta: "Learn More",
     ctaLink: "/programmes",
-    image: "hero-1.jpg",
+    image: "HomePhoto1.jpeg",
   },
   {
     id: 2,
@@ -27,7 +27,7 @@ const slides: Slide[] = [
     subtitle: "Helping farmers adapt to climate change through resilient farming and conservation strategies",
     cta: "Our Impact",
     ctaLink: "/who-we-are",
-    image: "hero-2.jpg",
+    image: "HomePhoto3.jpeg",
   },
   {
     id: 3,
@@ -35,7 +35,7 @@ const slides: Slide[] = [
     subtitle: "Partner with us to create lasting change in rural India through sustainable development",
     cta: "Get Involved",
     ctaLink: "/contact",
-    image: "hero-3.jpg",
+    image: "HomePhoto5.jpg",
   },
 ];
 

@@ -16,6 +16,27 @@ const Header = () => {
     return () => window.removeEventListener("scroll", handleScroll);
   }, []);
 
+  const [programmes, setProgrammes] = useState<Record<string, any[]>>({});
+
+  useEffect(() => {
+    fetch("/data/programmes.json")
+      .then((res) => res.json())
+      .then((data) => {
+        const categorizedProgrammes = data.reduce((acc: Record<string, any[]>, curr: any) => {
+          if (!acc[curr.category]) {
+            acc[curr.category] = [];
+          }
+          acc[curr.category].push({
+            name: curr.title,
+            href: curr.read_more_url,
+          });
+          return acc;
+        }, {});
+        setProgrammes(categorizedProgrammes);
+      })
+      .catch((err) => console.error("Error loading programmes:", err));
+  }, []);
+
   const navigation = [
     { name: "Home", href: "/" },
     {
@@ -30,36 +51,15 @@ const Header = () => {
       name: "What We Do",
       href: "#",
       megaMenu: true,
-      sections: [
-        {
-          title: "Sustainable Livelihoods",
-          items: [
-            { name: "Livestock Development", href: "/programmes/sustainable-livestock" },
-            { name: "Water-Centric Agriculture", href: "/programmes/water-centric-agriculture" },
-            { name: "Farm-Based Livelihoods", href: "/programmes/farm-based-livelihoods" },
-          ],
-        },
-        {
-          title: "Climate Action",
-          items: [
-            { name: "Climate Adaptation", href: "/programmes/climate-adaptation" },
-            { name: "Agro-Biodiversity", href: "/programmes/agro-biodiversity" },
-            { name: "Mitigation Strategies", href: "/programmes" },
-          ],
-        },
-        {
-          title: "Community Development",
-          items: [
-            { name: "Education & Skilling", href: "/programmes/education-skilling" },
-            { name: "Women Empowerment", href: "/programmes" },
-            { name: "Social Enterprises", href: "/programmes" },
-          ],
-        },
-      ],
+      sections: Object.entries(programmes).map(([category, items]) => ({
+        title: category,
+        items: items.slice(0, 5), // Show only first 5 programmes per category
+      })),
     },
     { name: "Media", href: "/gallery" },
     { name: "Events", href: "/events" },
     { name: "Knowledge Hub", href: "/knowledge-hub" },
+    { name: "Documents", href: "/documents" },
     { name: "Partners", href: "/partners" },
     { name: "Contact", href: "/contact" },
   ];
@@ -120,29 +120,35 @@ const Header = () => {
                       </button>
                       {activeDropdown === item.name && (
                         <div className={`absolute top-full left-0 bg-card border shadow-elevated rounded-md overflow-hidden ${
-                          item.megaMenu ? "w-[600px]" : "w-56"
+                          item.megaMenu ? "w-[800px]" : "w-56"
                         }`}>
                           {item.megaMenu && item.sections ? (
-                            <div className="grid grid-cols-3 gap-4 p-6">
-                              {item.sections.map((section) => (
-                                <div key={section.title}>
-                                  <h3 className="font-semibold text-sm text-primary mb-2">
-                                    {section.title}
-                                  </h3>
-                                  <ul className="space-y-2">
-                                    {section.items.map((subItem) => (
-                                      <li key={subItem.name}>
-                                        <Link
-                                          to={subItem.href}
-                                          className="text-sm text-muted-foreground hover:text-primary transition-colors block"
-                                        >
-                                          {subItem.name}
-                                        </Link>
-                                      </li>
-                                    ))}
-                                  </ul>
+                            <div className="grid grid-cols-4 gap-6 p-6">
+                              {Object.keys(programmes).length === 0 ? (
+                                <div className="col-span-4 text-center py-4">
+                                  <p className="text-muted-foreground">Loading programmes...</p>
                                 </div>
-                              ))}
+                              ) : (
+                                item.sections.map((section) => (
+                                  <div key={section.title}>
+                                    <h3 className="font-semibold text-sm text-primary mb-2">
+                                      {section.title}
+                                    </h3>
+                                    <ul className="space-y-2">
+                                      {section.items.map((subItem) => (
+                                        <li key={subItem.name}>
+                                          <Link
+                                            to={subItem.href}
+                                            className="text-sm text-muted-foreground hover:text-primary transition-colors block"
+                                          >
+                                            {subItem.name}
+                                          </Link>
+                                        </li>
+                                      ))}
+                                    </ul>
+                                  </div>
+                                ))
+                              )}
                             </div>
                           ) : (
                             <ul className="py-2">

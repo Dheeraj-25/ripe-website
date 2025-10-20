@@ -87,27 +87,57 @@ const WhoWeAre = () => {
                 <h2 className="text-3xl font-bold mb-6 text-foreground">Our History</h2>
                 <div className="space-y-6">
                   <div className="border-l-4 border-primary pl-6">
-                    <h3 className="text-xl font-semibold mb-2">1990s - Foundation</h3>
+                    <h3 className="text-xl font-semibold mb-2">1989-1995 - Foundation & Early Years</h3>
                     <p className="text-muted-foreground">
-                      Established with a vision to improve livestock breeding and rural livelihoods through scientific approaches
+                      RIPE was established in 1989 as a non-profit organization in Chittoor, Andhra Pradesh. 
+                      Founded by a group of dedicated development professionals and agricultural experts, the organization 
+                      began with a mission to transform rural lives through sustainable development approaches. Initial 
+                      focus was on agricultural extension services and community mobilization.
                     </p>
                   </div>
                   <div className="border-l-4 border-primary pl-6">
-                    <h3 className="text-xl font-semibold mb-2">2000s - Expansion</h3>
+                    <h3 className="text-xl font-semibold mb-2">1996-2007 - Building Core Competencies</h3>
                     <p className="text-muted-foreground">
-                      Extended programmes to watershed development, organic farming, and women's empowerment across multiple states
+                      Developed expertise in participatory rural development methodologies and established strong 
+                      partnerships with government agencies and international organizations. Laid the groundwork for 
+                      future programs in water management, sustainable agriculture, and rural livelihoods through 
+                      pilot initiatives and action research.
                     </p>
                   </div>
                   <div className="border-l-4 border-primary pl-6">
-                    <h3 className="text-xl font-semibold mb-2">2010s - Climate Focus</h3>
+                    <h3 className="text-xl font-semibold mb-2">2008-2010 - Water Management Initiatives</h3>
                     <p className="text-muted-foreground">
-                      Pioneered climate adaptation strategies and biodiversity conservation programmes for smallholder farmers
+                      Initiated groundbreaking work with APCBTMP, focusing on tank management and water user associations, 
+                      establishing our expertise in community-based water resource management. This period marked our 
+                      transition into large-scale program implementation.
                     </p>
                   </div>
                   <div className="border-l-4 border-primary pl-6">
-                    <h3 className="text-xl font-semibold mb-2">2020s - Scale & Impact</h3>
+                    <h3 className="text-xl font-semibold mb-2">2011-2015 - Data-Driven Agriculture</h3>
                     <p className="text-muted-foreground">
-                      Reached over 2.5 million families across 15 states with integrated rural development programmes
+                      Conducted comprehensive horticulture baseline surveys in Chittoor and Kolar, while launching 
+                      entrepreneurship skill development programmes (ESDPs) for rural youth
+                    </p>
+                  </div>
+                  <div className="border-l-4 border-primary pl-6">
+                    <h3 className="text-xl font-semibold mb-2">2015-2020 - Climate Resilience Focus</h3>
+                    <p className="text-muted-foreground">
+                      Expanded into climate-smart agriculture with the CHAMAN project, organic farming initiatives, 
+                      and establishment of bio-resource centers for sustainable farming practices
+                    </p>
+                  </div>
+                  <div className="border-l-4 border-primary pl-6">
+                    <h3 className="text-xl font-semibold mb-2">2020-2023 - Integrated Development</h3>
+                    <p className="text-muted-foreground">
+                      Launched major initiatives including NABARD Watershed Development, Pallejeevam (APDMP), and JJM-VWSC 
+                      capacity building, integrating water management with livelihood improvements
+                    </p>
+                  </div>
+                  <div className="border-l-4 border-primary pl-6">
+                    <h3 className="text-xl font-semibold mb-2">2023-Present - Innovation & Scale</h3>
+                    <p className="text-muted-foreground">
+                      Focusing on Climate Information Centers (CLICs), comprehensive natural resource management, 
+                      and expanding our proven models across multiple districts
                     </p>
                   </div>
                 </div>

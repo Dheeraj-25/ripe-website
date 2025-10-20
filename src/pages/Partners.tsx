@@ -8,19 +8,21 @@ const Partners = () => {
   const partnerCategories = [
     {
       title: "International Partners",
-      partners: ["International Development Agency", "Global Climate Fund", "World Agricultural Foundation", "UN Development Programme"],
+      partners: ["Japan International Cooperation Agency (JICA)", "World Bank", "European Commission, Brussels", "Maastricht University, Netherlands","Milan University, Italy","UN Development Programme (UNDP)"],
     },
     {
       title: "Government Partnerships",
-      partners: ["Ministry of Rural Development", "State Agriculture Department", "National Rural Livelihoods Mission", "Watershed Development Department"],
+      partners: ["Ministry of Rural Development, Government of India", "Department of Rural Water Supply & Sanitation, Government of Andhra Pradesh", "National Rural Livelihoods Mission", "Water Resources Development Department, Government of Andhra Pradesh","Department of Horticulture, Government of Andhra Pradesh"
+        ,"State Agriculture Department, Government of Andhra Pradesh","National Rural Livelihoods Mission (NRLM)","Irrigation & Command Area Development Department (I&CAD), Hyderabad"
+      ],
     },
     {
       title: "Corporate Partners",
-      partners: ["Agricultural Corporation Ltd", "Green Energy Solutions", "Rural Finance Bank", "Sustainable Foods Inc"],
+      partners: ["Godrej Agrovet Limited", "Development Management Network (DMN), Hyderabad", "Tata Consultancy Services (TCS)", "Agricultural Corporation Ltd", "Green Energy Solutions", "Rural Finance Bank", "Sustainable Foods Inc"],
     },
     {
       title: "NGO & Academic Partners",
-      partners: ["Agricultural University", "Rural Development Institute", "Climate Action Network", "Women Empowerment Foundation"],
+      partners: ["Chitkara University, Punjab", "Climate Action Network", "Rural Development Institute", "Women Empowerment Foundation","Agricultural University","Society for Social Service (SSS), Bhilai","SOCHURSOD, Andhra Pradesh","AMMACTS"],
     },
   ];
 

@@ -23,7 +23,7 @@ const Programmes = () => {
       .catch((err) => console.error("Error loading programmes:", err));
   }, []);
 
-  const categories = ["All", "Sustainable Livelihoods", "Climate Action", "Education & Skilling"];
+  const categories = ["All", "Agriculture & Livelihoods", "Water & Natural Resource Management", "Climate Resilience & Environmental Action","Education, Skilling & Entrepreneurship","Health, Nutrition & Sanitation","Governance, Research & Monitoring","Social Empowerment & Community Engagement","Technology & Data Systems"];
 
   const filteredProgrammes =
     filter === "All" ? programmes : programmes.filter((p) => p.category === filter);

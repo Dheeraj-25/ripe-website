@@ -33,7 +33,7 @@ const ProgrammeDetail = () => {
         if (found) {
           const related = data.filter(
             (p) => p.category === found.category && p.id !== found.id
-          ).slice(0, 3);
+          ).slice(0, 5);
           setRelatedProgrammes(related);
         }
       })

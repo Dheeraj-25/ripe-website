@@ -21,28 +21,28 @@ const Governance = () => {
         photo: "/assets/images/narayana.png"
       }
     ],
-    // members: [
-    //   {
-    //     name: "Board Member 1",
-    //     position: "Board Member",
-    //     photo: null
-    //   },
-    //   {
-    //     name: "Board Member 2",
-    //     position: "Board Member",
-    //     photo: null
-    //   },
-    //   {
-    //     name: "Board Member 3",
-    //     position: "Board Member",
-    //     photo: null
-    //   },
-    //   {
-    //     name: "Board Member 4",
-    //     position: "Board Member",
-    //     photo: null
-    //   }
-    // ],
+    members: [
+      {
+        name: "Board Member 1",
+        position: "Board Member",
+        photo: null
+      },
+      {
+        name: "Board Member 2",
+        position: "Board Member",
+        photo: null
+      },
+      {
+        name: "Board Member 3",
+        position: "Board Member",
+        photo: null
+      },
+      {
+        name: "Board Member 4",
+        position: "Board Member",
+        photo: null
+      }
+    ],
     DevelopmentTeam: [
       {
         name: "Hemanth",
@@ -52,44 +52,20 @@ const Governance = () => {
       },
       {
         name: "Dheeraj",
-        position: "Development Consultant",
+        position: "Development Coordinator",
         area: "Technology & Development",
         photo: null
       },
       {
         name: "Likith Muni",
-        position: "Gen AI consultant",
+        position: "Technical Coordinator",
         area: "Technology & Development",
         photo: null
       },
       {
         name: "Varshini",
-        position: "Resource Management Consultant",
+        position: "Operations Coordinator",
         area: "Resource Management",
-        photo: null
-      },
-      {
-        name: "Chandra",
-        position: "Village Coordinator",
-        area: "Programme Implementation",
-        photo: null
-      },
-      {
-        name: "Anil Kumar",
-        position: "Finance & Compliance Officer",
-        area: "Finance & Administration",
-        photo: null
-      },
-      {
-        name: "Rahul",
-        position: "Data Analytics Consultant",
-        area: "Monitoring & Evaluation",
-        photo: null
-      },
-      {
-       name: "Priya",
-        position: "Sustainability Coordinator",
-        area: "Environment & Sustainability",
         photo: null
       }
     ]
@@ -163,7 +139,7 @@ const Governance = () => {
                   </div>
                 </div>
 
-                {/* Board Members Row - Commented out temporarily
+                {/* Board Members Row */}
                 <div className="mb-16">
                   <h3 className="text-2xl font-bold mb-8 text-foreground text-center">Board Members</h3>
                   <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
@@ -196,7 +172,6 @@ const Governance = () => {
                     ))}
                   </div>
                 </div>
-                */}
 
                 {/* Operations Team Section */}
                 <div className="mt-20">

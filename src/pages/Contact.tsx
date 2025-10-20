@@ -111,9 +111,9 @@ const Contact = () => {
                       <div>
                         <h3 className="font-semibold mb-1">Head Office</h3>
                         <p className="text-muted-foreground">
-                          123 Rural Development Center<br />
-                          City, State - 123456<br />
-                          India
+                          Kuruvapalli(V),D.R Palli(P),<br />
+                          Mangalampet,Chittor,A.P<br />
+                          India - 517172
                         </p>
                       </div>
                     </div>
@@ -124,7 +124,7 @@ const Contact = () => {
                       </div>
                       <div>
                         <h3 className="font-semibold mb-1">Phone</h3>
-                        <p className="text-muted-foreground">+91-123-456-7890</p>
+                        <p className="text-muted-foreground">+91 9440760393</p>
                         <p className="text-muted-foreground text-sm mt-1">Mon-Fri, 9:00 AM - 6:00 PM</p>
                       </div>
                     </div>
@@ -135,8 +135,8 @@ const Contact = () => {
                       </div>
                       <div>
                         <h3 className="font-semibold mb-1">Email</h3>
-                        <p className="text-muted-foreground">info@yourorganization.org</p>
-                        <p className="text-muted-foreground">partnerships@yourorganization.org</p>
+                        <p className="text-muted-foreground">secretary@ripengo.org</p>
+                        <p className="text-muted-foreground">ripesociety1989@gmail.com</p>
                       </div>
                     </div>
                   </CardContent>
