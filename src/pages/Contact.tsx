@@ -13,18 +13,45 @@ const Contact = () => {
   const [formData, setFormData] = useState({
     name: "",
     email: "",
+    mobile: "",
     subject: "",
     message: "",
   });
 
-  const handleSubmit = (e: React.FormEvent) => {
+  const [loading, setLoading] = useState(false);
+
+  const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
-    // In a real application, this would send data to a server
-    toast({
-      title: "Message Sent!",
-      description: "Thank you for reaching out. We'll get back to you soon.",
-    });
-    setFormData({ name: "", email: "", subject: "", message: "" });
+    setLoading(true);
+    try {
+      const res = await fetch("/api/contact-form", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify(formData),
+      });
+      const data = await res.json();
+      if (res.ok) {
+        toast({
+          title: "Message Sent!",
+          description: "Thank you for reaching out. We'll get back to you soon.",
+        });
+  setFormData({ name: "", email: "", mobile: "", subject: "", message: "" });
+      } else {
+        toast({
+          title: "Failed to send message",
+          description: data.message || "Please try again later.",
+          variant: "destructive",
+        });
+      }
+    } catch (error) {
+      toast({
+        title: "Network error",
+        description: "Could not send message. Please try again later.",
+        variant: "destructive",
+      });
+    } finally {
+      setLoading(false);
+    }
   };
 
   return (
@@ -62,6 +89,17 @@ const Contact = () => {
                       />
                     </div>
                     <div>
+                      <label className="block text-sm font-medium mb-2">Mobile Number *</label>
+                      <Input
+                        required
+                        type="tel"
+                        value={formData.mobile}
+                        onChange={(e) => setFormData({ ...formData, mobile: e.target.value })}
+                        placeholder="Your mobile number"
+                        pattern="[0-9]{10,15}"
+                      />
+                    </div>
+                    <div>
                       <label className="block text-sm font-medium mb-2">Email *</label>
                       <Input
                         required
@@ -90,8 +128,8 @@ const Contact = () => {
                         rows={6}
                       />
                     </div>
-                    <Button type="submit" size="lg" className="w-full">
-                      Send Message
+                    <Button type="submit" size="lg" className="w-full" disabled={loading}>
+                      {loading ? "Sending..." : "Send Message"}
                     </Button>
                   </form>
                 </CardContent>
