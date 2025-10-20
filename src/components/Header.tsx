@@ -49,7 +49,7 @@ const Header = () => {
     },
     {
       name: "What We Do",
-      href: "#",
+      href: "/programmes",
       megaMenu: true,
       sections: Object.entries(programmes).map(([category, items]) => ({
         title: category,
@@ -114,10 +114,14 @@ const Header = () => {
                 >
                   {item.submenu || item.megaMenu ? (
                     <>
-                      <button className="px-4 py-2 text-foreground hover:text-primary transition-colors flex items-center gap-1">
+                      <Link
+                        to={item.href}
+                        className="px-4 py-2 text-foreground hover:text-primary transition-colors flex items-center gap-1"
+                        onClick={() => setActiveDropdown(null)}
+                      >
                         {item.name}
                         <ChevronDown className="w-4 h-4" />
-                      </button>
+                      </Link>
                       {activeDropdown === item.name && (
                         <div className={`absolute top-full left-0 bg-card border shadow-elevated rounded-md overflow-hidden ${
                           item.megaMenu ? "w-[800px]" : "w-56"
