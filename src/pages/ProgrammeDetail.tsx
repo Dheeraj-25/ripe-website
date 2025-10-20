@@ -27,13 +27,15 @@ const ProgrammeDetail = () => {
     fetch("/data/programmes.json")
       .then((res) => res.json())
       .then((data: Programme[]) => {
-        const found = data.find((p) => p.id === id);
+        // Normalize id and category for robust comparison
+        const found = data.find((p) => String(p.id).trim() === String(id).trim());
         setProgramme(found || null);
 
         if (found) {
+          const foundCategory = found.category.trim().toLowerCase();
           const related = data.filter(
-            (p) => p.category === found.category && p.id !== found.id
-          ).slice(0, 5);
+            (p) => p.id !== found.id && p.category && p.category.trim().toLowerCase() === foundCategory
+          );
           setRelatedProgrammes(related);
         }
       })

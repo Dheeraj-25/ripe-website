@@ -45,7 +45,7 @@ const Home = () => {
     // Load programmes data
     fetch("/data/programmes.json")
       .then((res) => res.json())
-      .then((data) => setProgrammes(data.slice(0, 6)))
+      .then((data) => setProgrammes(data.slice(0, 8)))
       .catch((err) => console.error("Error loading programmes:", err));
 
     // Load events data
