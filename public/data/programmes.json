@@ -26,6 +26,174 @@
     "read_more_url": "/programmes/apilip-ii"
   },
   {
+    "id": "jjm-vwsc-capacity-building",
+    "title": "Jal Jeevan Mission (JJM) - VWSC Capacity Building",
+    "category": "Water & Natural Resource Management",
+    "short_desc": "Capacity building for Village Water & Sanitation Committees on sustainable WASH.",
+    "long_desc": "JJM-linked activities focused on capacitating Village Water & Sanitation Committees (VWSCs) and frontline service providers on community management of water supply and sanitation services.",
+    "image": "jjm.jpg",
+    "impact": {
+      "vwscs_trained": 67,
+      "community_reached": 50000
+    },
+    "partners": [
+      "Department of Rural Water Supply & Sanitation, GoAP",
+      "JJM"
+    ],
+    "start_date": "2022-08-01",
+    "end_date": "2023-07-31",
+    "budget_rs": 872000,
+    "locations": [
+      "Nagari, Nindra, Vijayapuram Mandals, Chittoor"
+    ],
+    "contact_email": "water@ripengo.org",
+    "read_more_url": "/programmes/jjm-vwsc"
+  },
+  {
+    "id": "organic-farming-promotion",
+    "title": "Promotion of Organic Farming & Biofertilizers",
+    "category": "Climate Resilience & Environmental Action",
+    "short_desc": "Farmer field schools and bio-resource centre activities supporting organic farming.",
+    "long_desc": "Support for farmers to adopt organic practices via Farmer Field Schools, training on biofertilizer production and access to bio-resource centre products.",
+    "image": "organic-farming.jpg",
+    "impact": {
+      "organic_farmers": 95000,
+      "ffs_conducted": 120
+    },
+    "partners": [
+      "Bio-resource Centre",
+      "Department of Agriculture"
+    ],
+    "start_date": "2015-01-01",
+    "end_date": null,
+    "budget_rs": null,
+    "locations": [
+      "KV Palle cluster and Chittoor district"
+    ],
+    "contact_email": "organic@ripengo.org",
+    "read_more_url": "/programmes/organic-farming"
+  },
+   {
+    "id": "esdps",
+    "title": "Entrepreneurship Skill Development Programmes (ESDPs)",
+    "category": "Education, Skilling & Entrepreneurship",
+    "short_desc": "Skill development and placement support for rural youth.",
+    "long_desc": "ESDPs provided vocational skill training in multiple trades to unemployed youth with placement support; nearly two-thirds of trainees found employment post-training.",
+    "image": "esdps.jpg",
+    "impact": {
+      "youth_trained": 480,
+      "batches": 16,
+      "placement_rate": "65%"
+    },
+    "partners": [
+      "NI-MSME, GoI"
+    ],
+    "start_date": "2012-11-01",
+    "end_date": "2015-03-31",
+    "budget_rs": null,
+    "locations": [
+      "Chittoor district"
+    ],
+    "contact_email": "skills@ripengo.org",
+    "read_more_url": "/programmes/esdps"
+  },
+  {
+    "id": "prevent-it",
+    "title": "PREVENT IT - Antibiotic Resistance Awareness",
+    "category": "Health, Nutrition & Sanitation",
+    "short_desc": "Awareness campaigns on prevention of antibiotic resistance (EU & Chitkara University).",
+    "long_desc": "PREVENT IT delivered empowerment camps and awareness activities across academic and community forums to sensitize stakeholders about antibiotic resistance and prudent antibiotic use.",
+    "image": "prevent-it.jpg",
+    "impact": {
+      "awareness_camps": 10,
+      "participants": 5000
+    },
+    "partners": [
+      "European Commission",
+      "Chitkara University"
+    ],
+    "start_date": "2019-01-15",
+    "end_date": "2022-01-16",
+    "budget_rs": 2025000,
+    "locations": [
+      "Chittoor district; Chandigarh; Netherlands; Milan"
+    ],
+    "contact_email": "health@ripengo.org",
+    "read_more_url": "/programmes/prevent-it"
+  },
+  {
+    "id": "mgnregs-study",
+    "title": "Study for Monitoring & Documentation of MGNREGS",
+    "category": "Governance, Research & Monitoring",
+    "short_desc": "Monitoring MGNREGS convergence initiatives in Chittoor and YSR Kadapa.",
+    "long_desc": "A study focusing on convergence of MGNREGS initiatives, involving secondary data collection, beneficiaries surveys and physical verification of assets.",
+    "image": "mgnregs.jpg",
+    "impact": {
+      "districts": 2,
+      "households_interviewed": 400
+    },
+    "partners": [
+      "PRDIS"
+    ],
+    "start_date": "2009-12-01",
+    "end_date": "2010-06-30",
+    "budget_rs": null,
+    "locations": [
+      "Chittoor; YSR Kadapa"
+    ],
+    "contact_email": "research@ripengo.org",
+    "read_more_url": "/programmes/mgnregs-study"
+  },
+  {
+    "id": "women-fpo-empowerment",
+    "title": "Women Empowerment in FPOs",
+    "category": "Social Empowerment & Community Engagement",
+    "short_desc": "Promoting women's participation and leadership in FPOs.",
+    "long_desc": "Interventions to ensure women's representation in FPO executive committees, capacity building specifically for women and support for women-led livelihood enterprises.",
+    "image": "women-fpo.jpg",
+    "impact": {
+      "women_representation_percent": 34,
+      "women_fpos_supported": 12
+    },
+    "partners": [
+      "FPOs",
+      "Local SHGs"
+    ],
+    "start_date": "2019-01-01",
+    "end_date": null,
+    "budget_rs": null,
+    "locations": [
+      "Chittoor district"
+    ],
+    "contact_email": "women@ripengo.org",
+    "read_more_url": "/programmes/women-fpo-empowerment"
+  },
+  {
+    "id": "nrm-living-soils",
+    "title": "Natural Resource Management (NRM) - Living Soils & Learning Sites",
+    "category": "Technology & Data Systems",
+    "short_desc": "NRM demonstrations, living soils and learning sites.",
+    "long_desc": "NRM activities include development of living soils, learning sites, borewell inventories with GIS mapping and demonstrations to improve soil health and moisture retention.",
+    "image": "nrm.jpg",
+    "impact": {
+      "learning_sites_area_acres": 750,
+      "living_soils_acres": 195,
+      "borewells_mapped": 142
+    },
+    "partners": [
+      "Local CRPs",
+      "Department of Agriculture"
+    ],
+    "start_date": "2019-01-01",
+    "end_date": null,
+    "budget_rs": null,
+    "locations": [
+      "Chittoor district"
+    ],
+    "contact_email": "nrm@ripengo.org",
+    "read_more_url": "/programmes/nrm"
+  },
+  {
     "id": "apiiatp",
     "title": "Andhra Pradesh Integrated Irrigation & Agriculture Transformation Project (APIIATP)",
     "category": "Agriculture & Livelihoods",
@@ -219,30 +387,6 @@
     "read_more_url": "/programmes/watershed-convergence"
   },
   {
-    "id": "jjm-vwsc-capacity-building",
-    "title": "Jal Jeevan Mission (JJM) - VWSC Capacity Building",
-    "category": "Water & Natural Resource Management",
-    "short_desc": "Capacity building for Village Water & Sanitation Committees on sustainable WASH.",
-    "long_desc": "JJM-linked activities focused on capacitating Village Water & Sanitation Committees (VWSCs) and frontline service providers on community management of water supply and sanitation services.",
-    "image": "jjm.jpg",
-    "impact": {
-      "vwscs_trained": 67,
-      "community_reached": 50000
-    },
-    "partners": [
-      "Department of Rural Water Supply & Sanitation, GoAP",
-      "JJM"
-    ],
-    "start_date": "2022-08-01",
-    "end_date": "2023-07-31",
-    "budget_rs": 872000,
-    "locations": [
-      "Nagari, Nindra, Vijayapuram Mandals, Chittoor"
-    ],
-    "contact_email": "water@ripengo.org",
-    "read_more_url": "/programmes/jjm-vwsc"
-  },
-  {
     "id": "groundwater-management-training",
     "title": "Groundwater Management & Rainwater Harvesting Training",
     "category": "Water & Natural Resource Management",
@@ -363,30 +507,6 @@
     "read_more_url": "/programmes/soil-health"
   },
   {
-    "id": "organic-farming-promotion",
-    "title": "Promotion of Organic Farming & Biofertilizers",
-    "category": "Climate Resilience & Environmental Action",
-    "short_desc": "Farmer field schools and bio-resource centre activities supporting organic farming.",
-    "long_desc": "Support for farmers to adopt organic practices via Farmer Field Schools, training on biofertilizer production and access to bio-resource centre products.",
-    "image": "organic-farming.jpg",
-    "impact": {
-      "organic_farmers": 95000,
-      "ffs_conducted": 120
-    },
-    "partners": [
-      "Bio-resource Centre",
-      "Department of Agriculture"
-    ],
-    "start_date": "2015-01-01",
-    "end_date": null,
-    "budget_rs": null,
-    "locations": [
-      "KV Palle cluster and Chittoor district"
-    ],
-    "contact_email": "organic@ripengo.org",
-    "read_more_url": "/programmes/organic-farming"
-  },
-  {
     "id": "clic-centres",
     "title": "Climate Information Centres (CLICs)",
     "category": "Climate Resilience & Environmental Action",
@@ -482,30 +602,6 @@
     "read_more_url": "/programmes/baseline-horticulture-chittoor"
   },
   {
-    "id": "esdps",
-    "title": "Entrepreneurship Skill Development Programmes (ESDPs)",
-    "category": "Education, Skilling & Entrepreneurship",
-    "short_desc": "Skill development and placement support for rural youth.",
-    "long_desc": "ESDPs provided vocational skill training in multiple trades to unemployed youth with placement support; nearly two-thirds of trainees found employment post-training.",
-    "image": "esdps.jpg",
-    "impact": {
-      "youth_trained": 480,
-      "batches": 16,
-      "placement_rate": "65%"
-    },
-    "partners": [
-      "NI-MSME, GoI"
-    ],
-    "start_date": "2012-11-01",
-    "end_date": "2015-03-31",
-    "budget_rs": null,
-    "locations": [
-      "Chittoor district"
-    ],
-    "contact_email": "skills@ripengo.org",
-    "read_more_url": "/programmes/esdps"
-  },
-  {
     "id": "skill-dev-rural-youth-women",
     "title": "Skill Development for Rural Youth & Women",
     "category": "Education, Skilling & Entrepreneurship",
@@ -553,30 +649,6 @@
     ],
     "contact_email": "women@ripengo.org",
     "read_more_url": "/programmes/women-fpo-empowerment"
-  },
-  {
-    "id": "prevent-it",
-    "title": "PREVENT IT - Antibiotic Resistance Awareness",
-    "category": "Health, Nutrition & Sanitation",
-    "short_desc": "Awareness campaigns on prevention of antibiotic resistance (EU & Chitkara University).",
-    "long_desc": "PREVENT IT delivered empowerment camps and awareness activities across academic and community forums to sensitize stakeholders about antibiotic resistance and prudent antibiotic use.",
-    "image": "prevent-it.jpg",
-    "impact": {
-      "awareness_camps": 10,
-      "participants": 5000
-    },
-    "partners": [
-      "European Commission",
-      "Chitkara University"
-    ],
-    "start_date": "2019-01-15",
-    "end_date": "2022-01-16",
-    "budget_rs": 2025000,
-    "locations": [
-      "Chittoor district; Chandigarh; Netherlands; Milan"
-    ],
-    "contact_email": "health@ripengo.org",
-    "read_more_url": "/programmes/prevent-it"
   },
   {
     "id": "covid-health-nutrition",
@@ -672,29 +744,6 @@
     ],
     "contact_email": "sanitation@ripengo.org",
     "read_more_url": "/programmes/ngp-verification"
-  },
-  {
-    "id": "mgnregs-study",
-    "title": "Study for Monitoring & Documentation of MGNREGS",
-    "category": "Governance, Research & Monitoring",
-    "short_desc": "Monitoring MGNREGS convergence initiatives in Chittoor and YSR Kadapa.",
-    "long_desc": "A study focusing on convergence of MGNREGS initiatives, involving secondary data collection, beneficiaries surveys and physical verification of assets.",
-    "image": "mgnregs.jpg",
-    "impact": {
-      "districts": 2,
-      "households_interviewed": 400
-    },
-    "partners": [
-      "PRDIS"
-    ],
-    "start_date": "2009-12-01",
-    "end_date": "2010-06-30",
-    "budget_rs": null,
-    "locations": [
-      "Chittoor; YSR Kadapa"
-    ],
-    "contact_email": "research@ripengo.org",
-    "read_more_url": "/programmes/mgnregs-study"
   },
   {
     "id": "ap-electoral-rolls-monitoring",
@@ -863,31 +912,6 @@
     ],
     "contact_email": "watershed@ripengo.org",
     "read_more_url": "/programmes/nabard-watershed"
-  },
-  {
-    "id": "nrm-living-soils",
-    "title": "Natural Resource Management (NRM) - Living Soils & Learning Sites",
-    "category": "Technology & Data Systems",
-    "short_desc": "NRM demonstrations, living soils and learning sites.",
-    "long_desc": "NRM activities include development of living soils, learning sites, borewell inventories with GIS mapping and demonstrations to improve soil health and moisture retention.",
-    "image": "nrm.jpg",
-    "impact": {
-      "learning_sites_area_acres": 750,
-      "living_soils_acres": 195,
-      "borewells_mapped": 142
-    },
-    "partners": [
-      "Local CRPs",
-      "Department of Agriculture"
-    ],
-    "start_date": "2019-01-01",
-    "end_date": null,
-    "budget_rs": null,
-    "locations": [
-      "Chittoor district"
-    ],
-    "contact_email": "nrm@ripengo.org",
-    "read_more_url": "/programmes/nrm"
   },
   {
     "id": "clic-centres",
