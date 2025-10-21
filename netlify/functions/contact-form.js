@@ -12,7 +12,7 @@ exports.handler = async function(event) {
   const msg = {
     to: ['ripe.mohan@gmail.com', 'ripesociety1989@gmail.com','ripe.dheeraj@gmail.com'],
     from: 'secretary@ripengo.org',
-    subject: `Contact Form from ${name} <${email}> [${mobile}]: ${subject}`,
+    subject: `Contact Form  Details`,
     text: `Name: ${name}\nEmail: ${email}\nMobile: ${mobile}\nSubject: ${subject}\nMessage: ${message}`,
     replyTo: email,
   };
