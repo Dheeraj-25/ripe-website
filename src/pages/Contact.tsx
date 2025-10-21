@@ -24,7 +24,10 @@ const Contact = () => {
     e.preventDefault();
     setLoading(true);
     try {
-      const res = await fetch("/api/contact-form", {
+      const apiUrl = process.env.NODE_ENV === "development"
+        ? "http://localhost:5000/api/contact-form"
+        : "/.netlify/functions/contact-form";
+      const res = await fetch(apiUrl, {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify(formData),
