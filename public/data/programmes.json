@@ -1,10 +1,10 @@
 [
   {
     "id": "apilip-ii",
-    "title": "Andhra Pradesh Irrigation & Livelihood Improvement Project (APILIP-II)",
+    "title": "Andhra Pradesh Irrigation & Livelihood\nImprovement Project (APILIP-II)",
     "category": "Agriculture & Livelihoods",
-    "short_desc": "Strengthening Water User Associations and improving irrigation-linked livelihoods (JICA funded).",
-    "long_desc": "APILIP-II focuses on strengthening Water User Associations (WUAs), improving irrigation infrastructure and supporting allied livelihoods through capacity building and technical assistance. Activities include training for farmers across WUAs, institutional strengthening, and promotion of sustainable water use practices.",
+    "short_desc": "Strengthening WUAs and irrigation-linked\nlivelihoods (JICA funded).",
+    "long_desc": "APILIP-II strengthens Water User Associations (WUAs), improves irrigation infrastructure, and supports allied livelihoods. Activities include capacity building, technical assistance, farmer training across WUAs, institutional strengthening, and promotion of sustainable water use.",
     "image": "apilip-ii.jpg",
     "impact": {
       "wuas_strengthened": 81,
@@ -22,15 +22,14 @@
     "locations": [
       "Chittoor district"
     ],
-    "contact_email": "projects@ripengo.org",
     "read_more_url": "/programmes/apilip-ii"
   },
   {
-    "id": "jjm-vwsc-capacity-building",
-    "title": "Jal Jeevan Mission (JJM) - VWSC Capacity Building",
+    "id": "jjm-vwsc",
+    "title": "Jal Jeevan Mission (JJM) - VWSC\nCapacity Building",
     "category": "Water & Natural Resource Management",
-    "short_desc": "Capacity building for Village Water & Sanitation Committees on sustainable WASH.",
-    "long_desc": "JJM-linked activities focused on capacitating Village Water & Sanitation Committees (VWSCs) and frontline service providers on community management of water supply and sanitation services.",
+    "short_desc": "Capacity building for Village Water &\nSanitation Committees on sustainable WASH.",
+    "long_desc": "JJM-linked activities focused on capacitating Village Water & Sanitation Committees (VWSCs) and frontline service providers. The goal was to enhance community management capabilities for water supply and sanitation services across the targeted areas.",
     "image": "jjm.jpg",
     "impact": {
       "vwscs_trained": 67,
@@ -46,15 +45,14 @@
     "locations": [
       "Nagari, Nindra, Vijayapuram Mandals, Chittoor"
     ],
-    "contact_email": "water@ripengo.org",
     "read_more_url": "/programmes/jjm-vwsc"
   },
   {
-    "id": "organic-farming-promotion",
-    "title": "Promotion of Organic Farming & Biofertilizers",
+    "id": "organic-farming",
+    "title": "Promotion of Organic Farming &\nBiofertilizers",
     "category": "Climate Resilience & Environmental Action",
-    "short_desc": "Farmer field schools and bio-resource centre activities supporting organic farming.",
-    "long_desc": "Support for farmers to adopt organic practices via Farmer Field Schools, training on biofertilizer production and access to bio-resource centre products.",
+    "short_desc": "Farmer field schools and bio-resource centre\nactivities supporting organic farming.",
+    "long_desc": "This program supports farmers in adopting organic practices. Support is provided through Farmer Field Schools, training on biofertilizer production, and enabling access to products from the bio-resource center for sustainable agriculture.",
     "image": "organic-farming.jpg",
     "impact": {
       "organic_farmers": 95000,
@@ -70,15 +68,14 @@
     "locations": [
       "KV Palle cluster and Chittoor district"
     ],
-    "contact_email": "organic@ripengo.org",
     "read_more_url": "/programmes/organic-farming"
   },
-   {
+  {
     "id": "esdps",
-    "title": "Entrepreneurship Skill Development Programmes (ESDPs)",
+    "title": "Entrepreneurship Skill Development\nProgrammes (ESDPs)",
     "category": "Education, Skilling & Entrepreneurship",
-    "short_desc": "Skill development and placement support for rural youth.",
-    "long_desc": "ESDPs provided vocational skill training in multiple trades to unemployed youth with placement support; nearly two-thirds of trainees found employment post-training.",
+    "short_desc": "Skill development and placement support\nfor rural youth.",
+    "long_desc": "ESDPs provided vocational skill training in multiple trades to unemployed youth. The program included comprehensive placement support, with nearly two-thirds of the trainees successfully finding employment post-training completion.",
     "image": "esdps.jpg",
     "impact": {
       "youth_trained": 480,
@@ -94,15 +91,14 @@
     "locations": [
       "Chittoor district"
     ],
-    "contact_email": "skills@ripengo.org",
     "read_more_url": "/programmes/esdps"
   },
   {
     "id": "prevent-it",
-    "title": "PREVENT IT - Antibiotic Resistance Awareness",
+    "title": "PREVENT IT - Antibiotic Resistance\nAwareness",
     "category": "Health, Nutrition & Sanitation",
-    "short_desc": "Awareness campaigns on prevention of antibiotic resistance (EU & Chitkara University).",
-    "long_desc": "PREVENT IT delivered empowerment camps and awareness activities across academic and community forums to sensitize stakeholders about antibiotic resistance and prudent antibiotic use.",
+    "short_desc": "Awareness campaigns on prevention of\nantibiotic resistance (EU & Chitkara University).",
+    "long_desc": "PREVENT IT delivered empowerment camps and awareness activities across academic and community forums. The main goal was to sensitize stakeholders about antibiotic resistance and promote prudent, responsible antibiotic use.",
     "image": "prevent-it.jpg",
     "impact": {
       "awareness_camps": 10,
@@ -118,15 +114,14 @@
     "locations": [
       "Chittoor district; Chandigarh; Netherlands; Milan"
     ],
-    "contact_email": "health@ripengo.org",
     "read_more_url": "/programmes/prevent-it"
   },
   {
     "id": "mgnregs-study",
-    "title": "Study for Monitoring & Documentation of MGNREGS",
+    "title": "Study for Monitoring & Documentation\nof MGNREGS",
     "category": "Governance, Research & Monitoring",
-    "short_desc": "Monitoring MGNREGS convergence initiatives in Chittoor and YSR Kadapa.",
-    "long_desc": "A study focusing on convergence of MGNREGS initiatives, involving secondary data collection, beneficiaries surveys and physical verification of assets.",
+    "short_desc": "Monitoring MGNREGS convergence initiatives\nin Chittoor and YSR Kadapa.",
+    "long_desc": "This study focused on the convergence of MGNREGS initiatives. It involved secondary data collection, comprehensive surveys of beneficiaries, and physical verification of assets created under the scheme in the target districts.",
     "image": "mgnregs.jpg",
     "impact": {
       "districts": 2,
@@ -141,15 +136,14 @@
     "locations": [
       "Chittoor; YSR Kadapa"
     ],
-    "contact_email": "research@ripengo.org",
     "read_more_url": "/programmes/mgnregs-study"
   },
   {
     "id": "women-fpo-empowerment",
-    "title": "Women Empowerment in FPOs",
+    "title": "Women Empowerment in Farmer Producer Organizations\n",
     "category": "Social Empowerment & Community Engagement",
-    "short_desc": "Promoting women's participation and leadership in FPOs.",
-    "long_desc": "Interventions to ensure women's representation in FPO executive committees, capacity building specifically for women and support for women-led livelihood enterprises.",
+    "short_desc": "Promoting women's participation and\nleadership in FPOs.",
+    "long_desc": "Interventions were designed to ensure strong women's representation in FPO executive committees. This included targeted capacity building for women and dedicated support for establishing and scaling up women-led livelihood enterprises.",
     "image": "women-fpo.jpg",
     "impact": {
       "women_representation_percent": 34,
@@ -165,15 +159,14 @@
     "locations": [
       "Chittoor district"
     ],
-    "contact_email": "women@ripengo.org",
     "read_more_url": "/programmes/women-fpo-empowerment"
   },
   {
-    "id": "nrm-living-soils",
-    "title": "Natural Resource Management (NRM) - Living Soils & Learning Sites",
+    "id": "nrm",
+    "title": "Natural Resource Management (NRM) -\nLiving Soils & Learning Sites",
     "category": "Technology & Data Systems",
-    "short_desc": "NRM demonstrations, living soils and learning sites.",
-    "long_desc": "NRM activities include development of living soils, learning sites, borewell inventories with GIS mapping and demonstrations to improve soil health and moisture retention.",
+    "short_desc": "Natural Resource Management demonstrations, living soils and\nlearning sites.",
+    "long_desc": "NRM activities included the development of living soils and learning sites, creating borewell inventories with GIS mapping, and conducting demonstrations. The aim was to substantially improve soil health and moisture retention capabilities.",
     "image": "nrm.jpg",
     "impact": {
       "learning_sites_area_acres": 750,
@@ -190,15 +183,14 @@
     "locations": [
       "Chittoor district"
     ],
-    "contact_email": "nrm@ripengo.org",
     "read_more_url": "/programmes/nrm"
   },
   {
     "id": "apiiatp",
-    "title": "Andhra Pradesh Integrated Irrigation & Agriculture Transformation Project (APIIATP)",
+    "title": "Andhra Pradesh Integrated Irrigation &\nAgriculture Transformation Project",
     "category": "Agriculture & Livelihoods",
-    "short_desc": "Support to minor irrigation and WUA strengthening (World Bank funded).",
-    "long_desc": "APIIATP supports minor irrigation schemes and strengthens local institutions such as WUAs and FPOs. Activities included farmer trainings, establishment of demo plots, and coordination with government line departments.",
+    "short_desc": "Support to minor irrigation and WUA\nstrengthening (World Bank funded).",
+    "long_desc": "APIIATP provides support for minor irrigation schemes and strengthens local institutions like WUAs and FPOs. Activities included farmer trainings, establishing demonstration plots, and coordination with government line departments.",
     "image": "apiiatp.jpg",
     "impact": {
       "wuas_supported": 30,
@@ -215,15 +207,14 @@
     "locations": [
       "Chittoor district"
     ],
-    "contact_email": "projects@ripengo.org",
     "read_more_url": "/programmes/apiiatp"
   },
   {
     "id": "apcbtmp",
-    "title": "Andhra Pradesh Community Based Tank Management Project (APCBTMP)",
+    "title": "Andhra Pradesh Community Based Tank\nManagement Project (APCBTMP)",
     "category": "Agriculture & Livelihoods",
-    "short_desc": "Minor irrigation tanks development and WUA capacity building.",
-    "long_desc": "APCBTMP worked on minor irrigation tank development, building WUA capacities in water management, collective agri-business, and agri demonstrations to enhance productivity and sustainability.",
+    "short_desc": "Minor irrigation tanks development and\nWUA capacity building.",
+    "long_desc": "APCBTMP focused on minor irrigation tank development and built the capacity of WUAs in water management. Activities included promoting collective agri-business and conducting agri demonstrations to enhance productivity and sustainability.",
     "image": "apcbtmp.jpg",
     "impact": {
       "tanks_supported": 42,
@@ -239,15 +230,14 @@
     "locations": [
       "Chittoor district"
     ],
-    "contact_email": "water@ripengo.org",
     "read_more_url": "/programmes/apcbtmp"
   },
   {
     "id": "nabard-watershed",
-    "title": "NABARD Watershed Development Programme",
+    "title": "NABARD Watershed Development\nProgramme",
     "category": "Agriculture & Livelihoods",
-    "short_desc": "Watershed activities to enhance water security and livelihoods in KV Palle Mandal.",
-    "long_desc": "NABARD-supported watershed interventions focusing on soil & water conservation, livelihood support and community institution strengthening in KV Palle Mandal.",
+    "short_desc": "Watershed activities to enhance water\nsecurity and livelihoods in KV Palle Mandal.",
+    "long_desc": "NABARD-supported interventions focused on soil and water conservation measures within the watershed. This included livelihood support and strengthening community institutions in KV Palle Mandal to improve local resilience.",
     "image": "nabard-watershed.jpg",
     "impact": {
       "watersheds": 1,
@@ -263,15 +253,14 @@
     "locations": [
       "KV Palle Mandal, Chittoor"
     ],
-    "contact_email": "watershed@ripengo.org",
     "read_more_url": "/programmes/nabard-watershed"
   },
   {
-    "id": "pallejeevam-apdmp",
-    "title": "Pallejeevam - Andhra Pradesh Drought Mitigation Project (APDMP)",
+    "id": "pallejeevam",
+    "title": "Pallejeevam - Andhra Pradesh Drought\nMitigation Project (APDMP)",
     "category": "Agriculture & Livelihoods",
-    "short_desc": "Drought mitigation with focus on FPO promotion, CLICs and CHCs.",
-    "long_desc": "APDMP emphasised community-based drought mitigation, promoting Farmer Producer Organisations (FPOs), establishing Climate Information Centres (CLICs) and Custom Hiring Centres (CHCs) to support smallholder farmers.",
+    "short_desc": "Drought mitigation with focus on FPO\npromotion, CLICs and CHCs.",
+    "long_desc": "APDMP emphasized community-based drought mitigation by promoting Farmer Producer Organisations (FPOs). The project established Climate Information Centres (CLICs) and Custom Hiring Centres (CHCs) to support smallholder farmers.",
     "image": "pallejeevam.jpg",
     "impact": {
       "households_covered": 4500,
@@ -288,15 +277,14 @@
     "locations": [
       "KV Palli, Kalakada, Kalikiri Mandals"
     ],
-    "contact_email": "pallejeevam@ripengo.org",
     "read_more_url": "/programmes/pallejeevam"
   },
   {
-    "id": "mvk-seed-centres",
-    "title": "Mana Vittana Kendramu (MVK) - Seed Production & Banks",
+    "id": "mvk",
+    "title": "Mana Vittana Kendramu (MVK) -\nSeed Production & Banks",
     "category": "Agriculture & Livelihoods",
-    "short_desc": "Local seed production and seed bank establishment to promote seed sovereignty.",
-    "long_desc": "MVK supports production and storage of breeder seeds, distribution to farmers, and promotes local seed conservation practices to ensure availability of quality seeds.",
+    "short_desc": "Local seed production and seed bank\nestablishment to promote seed sovereignty.",
+    "long_desc": "MVK supports the local production and storage of breeder seeds and facilitates their distribution to farmers. The program also actively promotes local seed conservation practices to ensure the availability of quality seeds.",
     "image": "mvk.jpg",
     "impact": {
       "quintals_distributed": 330,
@@ -312,15 +300,14 @@
     "locations": [
       "KV Palle cluster"
     ],
-    "contact_email": "seeds@ripengo.org",
     "read_more_url": "/programmes/mvk"
   },
   {
-    "id": "bio-resource-centres",
-    "title": "Bio-Resource Centres (Organic Inputs)",
+    "id": "bioresource-centres",
+    "title": "Bio-Resource Centres \n(Production and dissemination of Organic Inputs)\n",
     "category": "Agriculture & Livelihoods",
-    "short_desc": "Production and dissemination of organic inputs like Jeevamrutham and Neemasthram.",
-    "long_desc": "Bio-resource centres produce organic formulations (Jeevamrutham, Ganajeevamrutham, etc.), provide training on organic practices and support farmers transitioning to sustainable agriculture.",
+    "short_desc": "Production and dissemination of organic inputs\nlike Jeevamrutham and Neemasthram.",
+    "long_desc": "Bio-resource centres produce organic formulations (Jeevamrutham, Ganajeevamrutham, etc.). They also provide vital training on organic practices and support farmers as they transition to more sustainable agriculture methods.",
     "image": "bio-resource.jpg",
     "impact": {
       "centres_established": 1,
@@ -336,15 +323,14 @@
     "locations": [
       "KV Palle cluster"
     ],
-    "contact_email": "organic@ripengo.org",
     "read_more_url": "/programmes/bioresource-centres"
   },
   {
     "id": "climate-resilient-cropping",
-    "title": "Support for Climate-Resilient Cropping Systems",
+    "title": "Support for Climate-Resilient\nCropping Systems",
     "category": "Agriculture & Livelihoods",
-    "short_desc": "Promoting millets and drought-resistant crops.",
-    "long_desc": "Promotion of climate-resilient cropping patterns, distribution of Navadhanya kits, and support for traditional millet cultivation to reduce water stress and improve resilience.",
+    "short_desc": "Promoting millets and other drought-resistant\ncrops to enhance local climate resilience.",
+    "long_desc": "The program promotes climate-resilient cropping patterns. This includes the distribution of Navadhanya kits and support for traditional millet cultivation to reduce water stress and significantly improve overall agricultural resilience.",
     "image": "millets.jpg",
     "impact": {
       "farmers_supported": 90,
@@ -359,39 +345,15 @@
     "locations": [
       "Chittoor district"
     ],
-    "contact_email": "agri@ripengo.org",
     "read_more_url": "/programmes/climate-resilient-cropping"
   },
+  
   {
-    "id": "watershed-convergence",
-    "title": "Watershed-Based Activities & APDMP Convergence",
-    "category": "Agriculture & Livelihoods",
-    "short_desc": "Integrated watershed interventions linked with APDMP and NABARD.",
-    "long_desc": "Convergent activities with NABARD and APDMP to strengthen watershed measures, recharge structures and livelihood linkages.",
-    "image": "watershed.jpg",
-    "impact": {
-      "structures_built": 200,
-      "households_engaged": 3000
-    },
-    "partners": [
-      "NABARD",
-      "APDMP"
-    ],
-    "start_date": "2019-01-01",
-    "end_date": null,
-    "budget_rs": null,
-    "locations": [
-      "KV Palle and surrounding areas"
-    ],
-    "contact_email": "watershed@ripengo.org",
-    "read_more_url": "/programmes/watershed-convergence"
-  },
-  {
-    "id": "groundwater-management-training",
-    "title": "Groundwater Management & Rainwater Harvesting Training",
+    "id": "groundwater-management",
+    "title": "Groundwater Management &\nRainwater Harvesting Training",
     "category": "Water & Natural Resource Management",
-    "short_desc": "Training communities on groundwater conservation and rainwater harvesting.",
-    "long_desc": "Community trainings and technical support to adopt rainwater harvesting, groundwater recharge techniques and build local capacity for sustainable water management.",
+    "short_desc": "Training communities on groundwater\nconservation and rainwater harvesting.",
+    "long_desc": "The program provided community trainings and technical support for adopting rainwater harvesting and groundwater recharge techniques. It aimed to build local capacity for sustainable, long-term water management.",
     "image": "groundwater.jpg",
     "impact": {
       "villages": 20,
@@ -407,15 +369,14 @@
     "locations": [
       "Selected villages in Chittoor"
     ],
-    "contact_email": "water@ripengo.org",
     "read_more_url": "/programmes/groundwater-management"
   },
   {
-    "id": "nrm-living-soils",
-    "title": "Natural Resource Management (NRM) - Living Soils & Learning Sites",
+    "id": "nrm",
+    "title": "Natural Resource Management (NRM) -\nLiving Soils & Learning Sites",
     "category": "Water & Natural Resource Management",
-    "short_desc": "NRM demonstrations, living soils and learning sites.",
-    "long_desc": "NRM activities include development of living soils, learning sites, borewell inventories with GIS mapping and demonstrations to improve soil health and moisture retention.",
+    "short_desc": "Natural Resource Management demonstrations, living soils and\nlearning sites.",
+    "long_desc": "NRM activities included the development of living soils and learning sites, creating borewell inventories with GIS mapping, and conducting demonstrations. The aim was to substantially improve soil health and moisture retention capabilities.",
     "image": "nrm.jpg",
     "impact": {
       "learning_sites_area_acres": 750,
@@ -432,39 +393,15 @@
     "locations": [
       "Chittoor district"
     ],
-    "contact_email": "nrm@ripengo.org",
     "read_more_url": "/programmes/nrm"
   },
+  
   {
-    "id": "nrm-demonstrations",
-    "title": "Demonstrations on NRM Practices",
+    "id": "drip-irrigation",
+    "title": "Drip Irrigation Implementation\n",
     "category": "Water & Natural Resource Management",
-    "short_desc": "Soil moisture conservation and protective irrigation demonstrations.",
-    "long_desc": "Field demonstrations showcasing soil moisture conservation techniques, protective irrigation methods and other NRM best practices.",
-    "image": "nrm-demo.jpg",
-    "impact": {
-      "demo_sites": 25,
-      "farmers_reached": 2000
-    },
-    "partners": [
-      "Local CRPs",
-      "Department of Agriculture"
-    ],
-    "start_date": "2019-01-01",
-    "end_date": null,
-    "budget_rs": null,
-    "locations": [
-      "Chittoor district"
-    ],
-    "contact_email": "nrm@ripengo.org",
-    "read_more_url": "/programmes/nrm-demonstrations"
-  },
-  {
-    "id": "drip-irrigation-demo",
-    "title": "Drip Irrigation Implementation",
-    "category": "Water & Natural Resource Management",
-    "short_desc": "Targeted drip irrigation support to farmers for efficient water use.",
-    "long_desc": "Provision and technical support for drip irrigation systems to optimize water use and improve crop yields on small holdings.",
+    "short_desc": "Targeted drip irrigation support to farmers\nfor efficient water use.",
+    "long_desc": "The program provided and offered technical support for the installation of drip irrigation systems. This initiative was crucial for optimizing water use and achieving improved crop yields on smallholder landholdings.",
     "image": "drip-irrigation.jpg",
     "impact": {
       "acres_covered": 24,
@@ -479,15 +416,14 @@
     "locations": [
       "Chittoor district"
     ],
-    "contact_email": "irrigation@ripengo.org",
     "read_more_url": "/programmes/drip-irrigation"
   },
   {
-    "id": "soil-health-initiatives",
-    "title": "Soil Health Improvement Initiatives",
+    "id": "soil-health",
+    "title": "Soil Health Improvement Initiatives\n",
     "category": "Water & Natural Resource Management",
-    "short_desc": "Soil testing, fertigation, gypsum distribution and organic inputs.",
-    "long_desc": "Interventions promoting soil testing-based fertilizer use, distribution of gypsum, promotion of fertigation and organic inputs to protect soil health and increase productivity.",
+    "short_desc": "Soil testing, fertigation, gypsum distribution\nand organic inputs.",
+    "long_desc": "Interventions promoted soil testing-based fertilizer use, distributed gypsum, and encouraged fertigation and organic inputs. These measures were implemented to protect overall soil health and substantially increase agricultural productivity.",
     "image": "soil-health.jpg",
     "impact": {
       "farmers_supported": 144,
@@ -503,15 +439,14 @@
     "locations": [
       "Chittoor district"
     ],
-    "contact_email": "soil@ripengo.org",
     "read_more_url": "/programmes/soil-health"
   },
   {
     "id": "clic-centres",
-    "title": "Climate Information Centres (CLICs)",
+    "title": "Climate Information Centres (CLICs) –\nLocal Hubs for Farmer Advisories",
     "category": "Climate Resilience & Environmental Action",
-    "short_desc": "Local CLIC centres to disseminate climate and agriculture advisories.",
-    "long_desc": "CLICs provide audiovisual resources, specialist sessions and equipment support to farmer groups, enabling timely dissemination of climate-smart advisories and practices.",
+    "short_desc": "Local CLIC centres to disseminate climate\nand agriculture advisories.",
+    "long_desc": "CLICs provide audiovisual resources, specialist sessions, and essential equipment support to farmer groups. This setup enables the timely dissemination of climate-smart advisories and practices, supporting resilient farming.",
     "image": "clic.jpg",
     "impact": {
       "clics_established": 3,
@@ -527,15 +462,14 @@
     "locations": [
       "KV Palli, Kalakada, Kalikiri Mandals"
     ],
-    "contact_email": "clic@ripengo.org",
     "read_more_url": "/programmes/clic-centres"
   },
   {
     "id": "chaman-project",
-    "title": "CHAMAN Project (Horticulture Assessment & Management)",
+    "title": "CHAMAN Project (Horticulture\nAssessment & Management)",
     "category": "Climate Resilience & Environmental Action",
-    "short_desc": "Primary horticulture data collection and crop cutting experiments.",
-    "long_desc": "CHAMAN involved large-scale primary data collection on horticulture crops across villages, and conducting Crop Cutting Experiments (CCEs) to support crop-level planning and research.",
+    "short_desc": "Primary horticulture data collection and\ncrop cutting experiments.",
+    "long_desc": "CHAMAN involved large-scale primary data collection on horticulture crops across numerous villages. It also included conducting Crop Cutting Experiments (CCEs) to support detailed crop-level planning and agricultural research.",
     "image": "chaman.jpg",
     "impact": {
       "villages_surveyed": 80,
@@ -552,15 +486,14 @@
     "locations": [
       "Chittoor district"
     ],
-    "contact_email": "horti@ripengo.org",
     "read_more_url": "/programmes/chaman-project"
   },
   {
     "id": "baseline-horticulture-kolar",
-    "title": "Baseline Survey of Horticulture - Kolar (Karnataka)",
+    "title": "Baseline Survey of Horticulture -\nKolar (Karnataka)",
     "category": "Climate Resilience & Environmental Action",
-    "short_desc": "Baseline survey and large-scale farmer registration in Kolar district.",
-    "long_desc": "Comprehensive baseline survey across Hoblis registering hundreds of thousands of horticulture farmers and entering detailed farmer-level data into government portals.",
+    "short_desc": "Baseline survey and large-scale farmer\nregistration in Kolar district.",
+    "long_desc": "A comprehensive baseline survey was conducted across Hoblis, registering hundreds of thousands of horticulture farmers. The detailed farmer-level data was successfully entered into government portals.",
     "image": "baseline-kolar.jpg",
     "impact": {
       "farmers_registered": 340597,
@@ -575,15 +508,14 @@
     "locations": [
       "Kolar district, Karnataka"
     ],
-    "contact_email": "data@ripengo.org",
     "read_more_url": "/programmes/baseline-horticulture-kolar"
   },
   {
     "id": "baseline-horticulture-chittoor",
-    "title": "Baseline Survey of Horticulture - Chittoor (AP)",
+    "title": "Baseline Survey of Horticulture -\nChittoor (AP)",
     "category": "Climate Resilience & Environmental Action",
-    "short_desc": "Baseline survey and farmer registration across Chittoor district.",
-    "long_desc": "Registered farmer-level horticulture data across all mandals of Chittoor and supported integration with state horticulture portals.",
+    "short_desc": "Baseline survey and farmer registration\nacross Chittoor district.",
+    "long_desc": "The project registered detailed farmer-level horticulture data across all mandals of Chittoor. The data was successfully integrated with the state horticulture portals, providing valuable planning information.",
     "image": "baseline-chittoor.jpg",
     "impact": {
       "farmers_registered": 332202,
@@ -598,15 +530,14 @@
     "locations": [
       "Chittoor district, Andhra Pradesh"
     ],
-    "contact_email": "data@ripengo.org",
     "read_more_url": "/programmes/baseline-horticulture-chittoor"
   },
   {
-    "id": "skill-dev-rural-youth-women",
-    "title": "Skill Development for Rural Youth & Women",
+    "id": "skill-development",
+    "title": "Skill Development for Rural Youth\n& Women",
     "category": "Education, Skilling & Entrepreneurship",
-    "short_desc": "Vocational training, entrepreneurship and placement support.",
-    "long_desc": "A range of skill development interventions targeted at rural youth and women to enhance employability and local entrepreneurship through training, mentorship and market linkages.",
+    "short_desc": "Vocational training, entrepreneurship\nand placement support.",
+    "long_desc": "A wide range of skill development interventions targeted rural youth and women. The goal was to enhance employability and local entrepreneurship through effective training, mentorship, and vital market linkages.",
     "image": "skill-development.jpg",
     "impact": {
       "people_trained": 5000,
@@ -623,15 +554,14 @@
     "locations": [
       "Chittoor district"
     ],
-    "contact_email": "skills@ripengo.org",
     "read_more_url": "/programmes/skill-development"
   },
   {
     "id": "women-fpo-empowerment",
-    "title": "Women Empowerment in FPOs",
+    "title": "Women Empowerment in Farmer Producer Organizations\n",
     "category": "Education, Skilling & Entrepreneurship",
-    "short_desc": "Promoting women's participation and leadership in FPOs.",
-    "long_desc": "Interventions to ensure women's representation in FPO executive committees, capacity building specifically for women and support for women-led livelihood enterprises.",
+    "short_desc": "Promoting women's participation and\nleadership in FPOs.",
+    "long_desc": "Interventions were designed to ensure strong women's representation in FPO executive committees. This included targeted capacity building for women and dedicated support for establishing and scaling up women-led livelihood enterprises.",
     "image": "women-fpo.jpg",
     "impact": {
       "women_representation_percent": 34,
@@ -647,15 +577,14 @@
     "locations": [
       "Chittoor district"
     ],
-    "contact_email": "women@ripengo.org",
     "read_more_url": "/programmes/women-fpo-empowerment"
   },
   {
     "id": "covid-health-nutrition",
-    "title": "Health & Nutrition Awareness during COVID-19",
+    "title": "Health & Nutrition Awareness\nduring COVID-19",
     "category": "Health, Nutrition & Sanitation",
-    "short_desc": "Emergency relief and awareness activities during the pandemic.",
-    "long_desc": "Distribution of masks, fruits and vegetables and awareness programmes on hand hygiene, sanitation and nutrition for vulnerable families during the COVID-19 pandemic.",
+    "short_desc": "Emergency relief and awareness activities\nduring the pandemic.",
+    "long_desc": "The program delivered emergency relief, including the distribution of masks, fruits, and vegetables. Awareness programs on hand hygiene, sanitation, and nutrition were conducted for vulnerable families during the COVID-19 pandemic.",
     "image": "covid-relief.jpg",
     "impact": {
       "families_supported": 2000,
@@ -671,15 +600,14 @@
     "locations": [
       "Kalakada; Kalikiri; KV Palli; Chinnagottigalu Mandals"
     ],
-    "contact_email": "health@ripengo.org",
     "read_more_url": "/programmes/covid-health-nutrition"
   },
   {
     "id": "healthworker-training",
-    "title": "Community-Based Training for ANMs, ASHAs & Anganwadi Workers",
+    "title": "Community-Based Training for ANMs,\nASHAs & Anganwadi Workers",
     "category": "Health, Nutrition & Sanitation",
-    "short_desc": "Training frontline health workers on sanitation, WASH and community hygiene.",
-    "long_desc": "Capacity building sessions for government frontline workers (ANMs, ASHAs, Anganwadi) to strengthen local WASH services and community health outreach.",
+    "short_desc": "Training frontline health workers on\nsanitation, WASH and community hygiene.",
+    "long_desc": "Capacity building sessions were held for government frontline workers (ANMs, ASHAs, Anganwadi). The goal was to strengthen local WASH services and improve community health outreach in the region.",
     "image": "healthworkers.jpg",
     "impact": {
       "workers_trained": 500,
@@ -695,15 +623,14 @@
     "locations": [
       "Chittoor district"
     ],
-    "contact_email": "health@ripengo.org",
     "read_more_url": "/programmes/healthworker-training"
   },
   {
     "id": "veterinary-support-pop",
-    "title": "Veterinary Support to POP Families",
+    "title": "Veterinary Support to POP Families\n(Poultry & Small Ruminants)",
     "category": "Health, Nutrition & Sanitation",
-    "short_desc": "Support for poultry and small ruminant rearers including local breed promotion.",
-    "long_desc": "Provision of veterinary services, vaccination drives, support for local breed poultry entrepreneurs and distribution of subsidised cattle feed to improve livelihoods of POP families.",
+    "short_desc": "Support for poultry and small ruminant\nrearers including local breed promotion.",
+    "long_desc": "The program provided veterinary services, vaccination drives, and support for local breed poultry entrepreneurs. It also distributed subsidized cattle feed to improve the livelihoods of vulnerable POP families.",
     "image": "veterinary.jpg",
     "impact": {
       "pop_families_supported": 300,
@@ -719,15 +646,14 @@
     "locations": [
       "Chittoor district"
     ],
-    "contact_email": "vet@ripengo.org",
-    "read_more_url": "/programmes/veterinary-support"
+    "read_more_url": "/programmes/veterinary-support-pop"
   },
   {
     "id": "ngp-verification",
-    "title": "Verification of Nirmal Gram Puraskar (NGP) Awards",
+    "title": "Verification of Nirmal Gram Puraskar\n(NGP) Awards",
     "category": "Health, Nutrition & Sanitation",
-    "short_desc": "Evaluation and verification for NGP awards in multiple districts.",
-    "long_desc": "Third-party verification of NGP awards including data collection, field verification and reporting to recommend awards.",
+    "short_desc": "Evaluation and verification for NGP awards\nin multiple districts.",
+    "long_desc": "This involved third-party verification of NGP awards. Activities included comprehensive data collection, thorough field verification, and reporting to recommend awards across multiple districts.",
     "image": "ngp.jpg",
     "impact": {
       "gram_panchayats_evaluated": 172,
@@ -742,15 +668,14 @@
     "locations": [
       "Multiple districts, Andhra Pradesh"
     ],
-    "contact_email": "sanitation@ripengo.org",
     "read_more_url": "/programmes/ngp-verification"
   },
   {
-    "id": "ap-electoral-rolls-monitoring",
-    "title": "Third Party Monitoring on AP Electoral Rolls",
+    "id": "electoral-rolls",
+    "title": "Third Party Monitoring on AP\nElectoral Rolls",
     "category": "Governance, Research & Monitoring",
-    "short_desc": "Verification and monitoring of electoral rolls in AP districts.",
-    "long_desc": "Field verification and data validation of electoral rolls to support transparent electoral processes.",
+    "short_desc": "Verification and monitoring of electoral\nrolls in AP districts.",
+    "long_desc": "The project involved field verification and data validation of electoral rolls in the target districts. This work was crucial to support transparent and accurate electoral processes.",
     "image": "electoral-rolls.jpg",
     "impact": {
       "districts_monitored": 2,
@@ -765,15 +690,14 @@
     "locations": [
       "Chittoor; Nellore"
     ],
-    "contact_email": "governance@ripengo.org",
     "read_more_url": "/programmes/electoral-rolls"
   },
   {
     "id": "rkvv-evaluation",
-    "title": "3rd Party Evaluation under RKVY (Agriculture & Organic Farming)",
+    "title": "3rd Party Evaluation under RKVY\n(Agriculture & Organic Farming)",
     "category": "Governance, Research & Monitoring",
-    "short_desc": "Third-party evaluation of RKVY initiatives in several districts.",
-    "long_desc": "Field surveys and interviews assessing implementation of RKVY-funded agriculture and organic farming initiatives, followed by reporting and recommendations.",
+    "short_desc": "Third-party evaluation of RKVY initiatives\nin several districts.",
+    "long_desc": "This was a third-party evaluation of RKVY-funded agriculture and organic farming initiatives. It involved field surveys, interviews with farmers, assessment of implementation, followed by detailed reporting and recommendations.",
     "image": "rkvv.jpg",
     "impact": {
       "farmers_interviewed": 480,
@@ -788,15 +712,14 @@
     "locations": [
       "Chittoor; YSR Kadapa; Nellore; Prakasam"
     ],
-    "contact_email": "evaluation@ripengo.org",
     "read_more_url": "/programmes/rkvv-evaluation"
   },
   {
-    "id": "apdpip-aprprp-monitoring",
-    "title": "Process Monitoring of APDPIP & APRPRP (Velugu Project)",
+    "id": "velugu-monitoring",
+    "title": "Process Monitoring of APDPIP &\nAPRPRP (Velugu Project)",
     "category": "Governance, Research & Monitoring",
-    "short_desc": "Process monitoring of poverty eradication programmes across multiple districts.",
-    "long_desc": "Monitoring and reporting on programme delivery, trainings for community coordinators and use of participatory rural appraisal tools to assess outcomes.",
+    "short_desc": "Process monitoring of poverty eradication\nprogrammes across multiple districts.",
+    "long_desc": "Monitoring and reporting focused on the delivery of poverty eradication programs. This included training for community coordinators and utilizing participatory rural appraisal tools to accurately assess program outcomes.",
     "image": "velugu.jpg",
     "impact": {
       "districts": 7,
@@ -812,64 +735,15 @@
     "locations": [
       "Multiple districts, Andhra Pradesh"
     ],
-    "contact_email": "monitoring@ripengo.org",
     "read_more_url": "/programmes/velugu-monitoring"
   },
-  {
-    "id": "chaman-project",
-    "title": "CHAMAN Project (Horticulture Assessment & Management)",
-    "category": "Governance, Research & Monitoring",
-    "short_desc": "Primary horticulture data collection and crop cutting experiments.",
-    "long_desc": "CHAMAN involved large-scale primary data collection on horticulture crops across villages, and conducting Crop Cutting Experiments (CCEs) to support crop-level planning and research.",
-    "image": "chaman.jpg",
-    "impact": {
-      "villages_surveyed": 80,
-      "cces_conducted": 15
-    },
-    "partners": [
-      "Department of Horticulture, GoAP",
-      "SHM",
-      "ICRA"
-    ],
-    "start_date": "2015-11-01",
-    "end_date": "2017-07-31",
-    "budget_rs": null,
-    "locations": [
-      "Chittoor district"
-    ],
-    "contact_email": "horti@ripengo.org",
-    "read_more_url": "/programmes/chaman-project"
-  },
-  {
-    "id": "women-fpo-empowerment",
-    "title": "Women Empowerment in FPOs",
-    "category": "Social Empowerment & Community Engagement",
-    "short_desc": "Promoting women's participation and leadership in FPOs.",
-    "long_desc": "Interventions to ensure women's representation in FPO executive committees, capacity building specifically for women and support for women-led livelihood enterprises.",
-    "image": "women-fpo.jpg",
-    "impact": {
-      "women_representation_percent": 34,
-      "women_fpos_supported": 12
-    },
-    "partners": [
-      "FPOs",
-      "Local SHGs"
-    ],
-    "start_date": "2019-01-01",
-    "end_date": null,
-    "budget_rs": null,
-    "locations": [
-      "Chittoor district"
-    ],
-    "contact_email": "women@ripengo.org",
-    "read_more_url": "/programmes/women-fpo-empowerment"
-  },
+  
   {
     "id": "pallejeevam-apdmp",
-    "title": "Pallejeevam - Andhra Pradesh Drought Mitigation Project (APDMP)",
+    "title": "Pallejeevam - Andhra Pradesh Drought\nMitigation Project (APDMP)",
     "category": "Social Empowerment & Community Engagement",
-    "short_desc": "Drought mitigation with focus on FPO promotion, CLICs and CHCs.",
-    "long_desc": "APDMP emphasised community-based drought mitigation, promoting Farmer Producer Organisations (FPOs), establishing Climate Information Centres (CLICs) and Custom Hiring Centres (CHCs) to support smallholder farmers.",
+    "short_desc": "Drought mitigation with focus on FPO\npromotion, CLICs and CHCs.",
+    "long_desc": "APDMP emphasized community-based drought mitigation by promoting Farmer Producer Organisations (FPOs). The project established Climate Information Centres (CLICs) and Custom Hiring Centres (CHCs) to support smallholder farmers.",
     "image": "pallejeevam.jpg",
     "impact": {
       "households_covered": 4500,
@@ -886,126 +760,6 @@
     "locations": [
       "KV Palli, Kalakada, Kalikiri Mandals"
     ],
-    "contact_email": "pallejeevam@ripengo.org",
-    "read_more_url": "/programmes/pallejeevam"
-  },
-  {
-    "id": "nabard-watershed",
-    "title": "NABARD Watershed Development Programme",
-    "category": "Social Empowerment & Community Engagement",
-    "short_desc": "Watershed activities to enhance water security and livelihoods in KV Palle Mandal.",
-    "long_desc": "NABARD-supported watershed interventions focusing on soil & water conservation, livelihood support and community institution strengthening in KV Palle Mandal.",
-    "image": "nabard-watershed.jpg",
-    "impact": {
-      "watersheds": 1,
-      "households_benefitted": 4500
-    },
-    "partners": [
-      "NABARD",
-      "Local Gram Panchayats"
-    ],
-    "start_date": "2020-01-01",
-    "end_date": null,
-    "budget_rs": null,
-    "locations": [
-      "KV Palle Mandal, Chittoor"
-    ],
-    "contact_email": "watershed@ripengo.org",
-    "read_more_url": "/programmes/nabard-watershed"
-  },
-  {
-    "id": "clic-centres",
-    "title": "Climate Information Centres (CLICs)",
-    "category": "Technology & Data Systems",
-    "short_desc": "Local CLIC centres to disseminate climate and agriculture advisories.",
-    "long_desc": "CLICs provide audiovisual resources, specialist sessions and equipment support to farmer groups, enabling timely dissemination of climate-smart advisories and practices.",
-    "image": "clic.jpg",
-    "impact": {
-      "clics_established": 3,
-      "members_served_per_clic": 50
-    },
-    "partners": [
-      "FPOs",
-      "Local Specialists"
-    ],
-    "start_date": "2019-01-01",
-    "end_date": null,
-    "budget_rs": null,
-    "locations": [
-      "KV Palli, Kalakada, Kalikiri Mandals"
-    ],
-    "contact_email": "clic@ripengo.org",
-    "read_more_url": "/programmes/clic-centres"
-  },
-  {
-    "id": "chaman-project",
-    "title": "CHAMAN Project (Horticulture Assessment & Management)",
-    "category": "Technology & Data Systems",
-    "short_desc": "Primary horticulture data collection and crop cutting experiments.",
-    "long_desc": "CHAMAN involved large-scale primary data collection on horticulture crops across villages, and conducting Crop Cutting Experiments (CCEs) to support crop-level planning and research.",
-    "image": "chaman.jpg",
-    "impact": {
-      "villages_surveyed": 80,
-      "cces_conducted": 15
-    },
-    "partners": [
-      "Department of Horticulture, GoAP",
-      "SHM",
-      "ICRA"
-    ],
-    "start_date": "2015-11-01",
-    "end_date": "2017-07-31",
-    "budget_rs": null,
-    "locations": [
-      "Chittoor district"
-    ],
-    "contact_email": "horti@ripengo.org",
-    "read_more_url": "/programmes/chaman-project"
-  },
-  {
-    "id": "baseline-horticulture-chittoor",
-    "title": "Baseline Survey of Horticulture - Chittoor (AP)",
-    "category": "Technology & Data Systems",
-    "short_desc": "Baseline survey and farmer registration across Chittoor district.",
-    "long_desc": "Registered farmer-level horticulture data across all mandals of Chittoor and supported integration with state horticulture portals.",
-    "image": "baseline-chittoor.jpg",
-    "impact": {
-      "farmers_registered": 332202,
-      "mandals": 66
-    },
-    "partners": [
-      "Department of Horticulture, GoAP"
-    ],
-    "start_date": "2011-07-01",
-    "end_date": "2012-03-31",
-    "budget_rs": null,
-    "locations": [
-      "Chittoor district, Andhra Pradesh"
-    ],
-    "contact_email": "data@ripengo.org",
-    "read_more_url": "/programmes/baseline-horticulture-chittoor"
-  },
-  {
-    "id": "baseline-horticulture-kolar",
-    "title": "Baseline Survey of Horticulture - Kolar (Karnataka)",
-    "category": "Technology & Data Systems",
-    "short_desc": "Baseline survey and large-scale farmer registration in Kolar district.",
-    "long_desc": "Comprehensive baseline survey across Hoblis registering hundreds of thousands of horticulture farmers and entering detailed farmer-level data into government portals.",
-    "image": "baseline-kolar.jpg",
-    "impact": {
-      "farmers_registered": 340597,
-      "hoblis": 27
-    },
-    "partners": [
-      "Department of Horticulture, Karnataka"
-    ],
-    "start_date": "2012-11-01",
-    "end_date": "2014-03-31",
-    "budget_rs": null,
-    "locations": [
-      "Kolar district, Karnataka"
-    ],
-    "contact_email": "data@ripengo.org",
-    "read_more_url": "/programmes/baseline-horticulture-kolar"
+    "read_more_url": "/programmes/pallejeevam-apdmp"
   }
 ]

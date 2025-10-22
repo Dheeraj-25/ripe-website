@@ -123,11 +123,25 @@ const Header = () => {
                         <ChevronDown className="w-4 h-4" />
                       </Link>
                       {activeDropdown === item.name && (
-                        <div className={`absolute top-full left-0 bg-card border shadow-elevated rounded-md overflow-hidden ${
-                          item.megaMenu ? "w-[800px]" : "w-56"
-                        }`}>
-                          {item.megaMenu && item.sections ? (
-                            <div className="grid grid-cols-4 gap-6 p-6">
+                        <div
+  className={`absolute top-full left-1/2 transform -translate-x-1/2 bg-card border shadow-elevated rounded-md z-50 ${
+    item.megaMenu
+      ? "w-[60vw] max-w-6xl overflow-x-auto overflow-y-auto max-h-[64h]"
+      : "w-60 overflow-y-auto max-h-[64h]"
+  }`}
+>
+  {/* <div
+  className={`absolute top-full left-0 bg-card border shadow-elevated rounded-md z-50 ${
+    item.megaMenu
+      ? "w-[90vw] max-w-7xl overflow-x-auto overflow-y-auto max-h-[80vh]"
+      : "w-64 overflow-y-auto max-h-[80vh]"
+  }`}
+> */}
+
+
+  {item.megaMenu && item.sections ? (
+    <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 xl:grid-cols-6 gap-6 p-6 min-w-max">
+
                               {Object.keys(programmes).length === 0 ? (
                                 <div className="col-span-4 text-center py-4">
                                   <p className="text-muted-foreground">Loading programmes...</p>
