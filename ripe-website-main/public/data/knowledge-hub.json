@@ -1,0 +1,105 @@
+{
+  "publications": [
+    {
+      "title": "Sustainable Livestock Management: A Comprehensive Guide",
+      "category": "Research Paper",
+      "year": 2024,
+      "size": "2.5 MB",
+      "description": "In-depth research on sustainable livestock management practices for small-scale farmers",
+      "file_url": "/documents/sustainable-livestock-2024.pdf",
+      "authors": ["Dr. K. Venkata Narayana", "B. Ravindranath Reddi"]
+    },
+    {
+      "title": "Climate-Resilient Agriculture Practices",
+      "category": "Training Manual",
+      "year": 2024,
+      "size": "1.8 MB",
+      "description": "Comprehensive guide for farmers on adapting agricultural practices to climate change",
+      "file_url": "/documents/climate-resilient-agriculture.pdf",
+      "authors": ["Kalavathi Ande", "Agricultural Research Team"]
+    },
+    {
+      "title": "Annual Impact Report 2023",
+      "category": "Report",
+      "year": 2023,
+      "size": "5.2 MB",
+      "description": "Detailed analysis of our programmes' impact on rural communities",
+      "file_url": "/documents/impact-report-2023.pdf",
+      "authors": ["RIPE Research Team"]
+    },
+    {
+      "title": "Water Conservation Techniques for Smallholder Farmers",
+      "category": "Guide",
+      "year": 2023,
+      "size": "1.5 MB",
+      "description": "Practical guide on water conservation methods for small-scale farming",
+      "file_url": "/documents/water-conservation-guide.pdf",
+      "authors": ["Water Management Team"]
+    },
+    {
+      "title": "Women's Empowerment through Self-Help Groups",
+      "category": "Case Study",
+      "year": 2023,
+      "size": "980 KB",
+      "description": "Study on the impact of SHGs on rural women's economic empowerment",
+      "file_url": "/documents/women-empowerment-study.pdf",
+      "authors": ["Community Development Team"]
+    },
+    {
+      "title": "Biodiversity Conservation in Agriculture",
+      "category": "Research Paper",
+      "year": 2022,
+      "size": "3.1 MB",
+      "description": "Research on maintaining biodiversity in agricultural landscapes",
+      "file_url": "/documents/biodiversity-conservation.pdf",
+      "authors": ["Environmental Research Unit"]
+    }
+  ],
+  "research_stations": [
+    {
+      "name": "Central Research Station",
+      "location": "Maharashtra",
+      "description": "Leading research in livestock breeding, climate adaptation, and integrated farming systems",
+      "focus_areas": ["Livestock", "Water Management", "Organic Farming"],
+      "facilities": [
+        "Advanced Soil Testing Lab",
+        "Livestock Research Unit",
+        "Climate Monitoring Station"
+      ],
+      "contact": {
+        "email": "central.research@ripengo.org",
+        "phone": "+91-XXXXXXXXXX"
+      }
+    },
+    {
+      "name": "Regional Research Center",
+      "location": "Karnataka",
+      "description": "Specialized research on dryland agriculture and biodiversity conservation",
+      "focus_areas": ["Dryland Farming", "Seed Conservation", "Agroforestry"],
+      "facilities": [
+        "Seed Bank",
+        "Agroforestry Demo Plot",
+        "Weather Monitoring Station"
+      ],
+      "contact": {
+        "email": "regional.research@ripengo.org",
+        "phone": "+91-XXXXXXXXXX"
+      }
+    },
+    {
+      "name": "Field Research Unit - Chittoor",
+      "location": "Andhra Pradesh",
+      "description": "Field research and demonstration center for sustainable agriculture practices",
+      "focus_areas": ["Sustainable Agriculture", "Water Conservation", "Soil Health"],
+      "facilities": [
+        "Demonstration Plots",
+        "Training Center",
+        "Soil Testing Unit"
+      ],
+      "contact": {
+        "email": "chittoor.research@ripengo.org",
+        "phone": "+91-XXXXXXXXXX"
+      }
+    }
+  ]
+}
