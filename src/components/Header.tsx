@@ -16,27 +16,6 @@ const Header = () => {
     return () => window.removeEventListener("scroll", handleScroll);
   }, []);
 
-  const [programmes, setProgrammes] = useState<Record<string, any[]>>({});
-
-  useEffect(() => {
-    fetch("/data/programmes.json")
-      .then((res) => res.json())
-      .then((data) => {
-        const categorizedProgrammes = data.reduce((acc: Record<string, any[]>, curr: any) => {
-          if (!acc[curr.category]) {
-            acc[curr.category] = [];
-          }
-          acc[curr.category].push({
-            name: curr.title,
-            href: curr.read_more_url,
-          });
-          return acc;
-        }, {});
-        setProgrammes(categorizedProgrammes);
-      })
-      .catch((err) => console.error("Error loading programmes:", err));
-  }, []);
-
   const navigation = [
     { name: "Home", href: "/" },
     {
@@ -47,15 +26,7 @@ const Header = () => {
         { name: "Governance", href: "/governance" },
       ],
     },
-    {
-      name: "What We Do",
-      href: "/programmes",
-      megaMenu: true,
-      sections: Object.entries(programmes).map(([category, items]) => ({
-        title: category,
-        items: items.slice(0, 5), // Show only first 5 programmes per category
-      })),
-    },
+    { name: "What We Do", href: "/programmes" },
     { name: "Media", href: "/gallery" },
     { name: "Events", href: "/events" },
     { name: "Knowledge Hub", href: "/knowledge-hub" },
@@ -109,10 +80,10 @@ const Header = () => {
                 <div
                   key={item.name}
                   className="relative"
-                  onMouseEnter={() => item.submenu || item.megaMenu ? setActiveDropdown(item.name) : null}
+                  onMouseEnter={() => item.submenu ? setActiveDropdown(item.name) : null}
                   onMouseLeave={() => setActiveDropdown(null)}
                 >
-                  {item.submenu || item.megaMenu ? (
+                  {item.submenu ? (
                     <>
                       <Link
                         to={item.href}
@@ -124,51 +95,8 @@ const Header = () => {
                       </Link>
                       {activeDropdown === item.name && (
                         <div
-  className={`absolute top-full left-1/2 transform -translate-x-1/2 bg-card border shadow-elevated rounded-md z-50 ${
-    item.megaMenu
-      ? "w-[60vw] max-w-6xl overflow-x-auto overflow-y-auto max-h-[64h]"
-      : "w-60 overflow-y-auto max-h-[64h]"
-  }`}
+  className="absolute top-full left-1/2 transform -translate-x-1/2 bg-card border shadow-elevated rounded-md z-50 w-60 overflow-y-auto max-h-[64h]"
 >
-  {/* <div
-  className={`absolute top-full left-0 bg-card border shadow-elevated rounded-md z-50 ${
-    item.megaMenu
-      ? "w-[90vw] max-w-7xl overflow-x-auto overflow-y-auto max-h-[80vh]"
-      : "w-64 overflow-y-auto max-h-[80vh]"
-  }`}
-> */}
-
-
-  {item.megaMenu && item.sections ? (
-    <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 xl:grid-cols-6 gap-6 p-6 min-w-max">
-
-                              {Object.keys(programmes).length === 0 ? (
-                                <div className="col-span-4 text-center py-4">
-                                  <p className="text-muted-foreground">Loading programmes...</p>
-                                </div>
-                              ) : (
-                                item.sections.map((section) => (
-                                  <div key={section.title}>
-                                    <h3 className="font-semibold text-sm text-primary mb-2">
-                                      {section.title}
-                                    </h3>
-                                    <ul className="space-y-2">
-                                      {section.items.map((subItem) => (
-                                        <li key={subItem.name}>
-                                          <Link
-                                            to={subItem.href}
-                                            className="text-sm text-muted-foreground hover:text-primary transition-colors block"
-                                          >
-                                            {subItem.name}
-                                          </Link>
-                                        </li>
-                                      ))}
-                                    </ul>
-                                  </div>
-                                ))
-                              )}
-                            </div>
-                          ) : (
                             <ul className="py-2">
                               {item.submenu?.map((subItem) => (
                                 <li key={subItem.name}>
@@ -181,7 +109,6 @@ const Header = () => {
                                 </li>
                               ))}
                             </ul>
-                          )}
                         </div>
                       )}
                     </>
