@@ -37,6 +37,14 @@ const slides: Slide[] = [
     ctaLink: "/contact",
     image: "HomePhoto5.jpg",
   },
+  {
+    id: 4,
+    title: "Rural Institute for People's Enlightenment",
+    subtitle: "RIPE is a registered nonprofit organization working for the upliftment of marginalized rural communities across Chittoor, Andhra Pradesh and Kolar, Karnataka. We focus on women empowerment, sustainable livelihoods, natural farming, WASH, and inclusive rural development, supporting SC/ST families, persons with disabilities, and vulnerable communities.",
+    cta: "",
+    ctaLink: "",
+    image: "",
+  },
 ];
 
 const HeroCarousel = () => {
@@ -70,28 +78,41 @@ const HeroCarousel = () => {
             index === currentSlide ? "opacity-100" : "opacity-0"
           }`}
         >
-          {/* Background Image */}
-          <div
-            className="absolute inset-0 bg-cover bg-center"
-            style={{
-              backgroundImage: `url(/assets/images/${slide.image})`,
-            }}
-          >
-            <div className="absolute inset-0 bg-gradient-overlay" />
-          </div>
+          {/* Background Image - only for slides with images */}
+          {slide.image && (
+            <div
+              className="absolute inset-0 bg-cover bg-center"
+              style={{
+                backgroundImage: `url(/assets/images/${slide.image})`,
+              }}
+            >
+              <div className="absolute inset-0 bg-gradient-overlay" />
+            </div>
+          )}
+
+          {/* Solid background for text-only slides */}
+          {!slide.image && (
+            <div className="absolute inset-0 bg-white/20">
+              <div className="absolute inset-0 bg-gradient-to-br from-white/10 to-gray-50/20" />
+            </div>
+          )}
 
           {/* Content */}
           <div className="relative container mx-auto px-4 h-full flex items-center">
-            <div className="max-w-2xl text-primary-foreground animate-fade-in">
+            <div className={`max-w-2xl animate-fade-in ${
+              slide.image ? 'text-primary-foreground' : 'text-foreground'
+            }`}>
               <h1 className="text-5xl md:text-6xl font-bold mb-6 leading-tight">
                 {slide.title}
               </h1>
               <p className="text-xl md:text-2xl mb-8 opacity-95">
                 {slide.subtitle}
               </p>
-              <Button asChild size="lg" variant="secondary">
-                <Link to={slide.ctaLink}>{slide.cta}</Link>
-              </Button>
+              {slide.cta && slide.ctaLink && (
+                <Button asChild size="lg" variant="secondary">
+                  <Link to={slide.ctaLink}>{slide.cta}</Link>
+                </Button>
+              )}
             </div>
           </div>
         </div>

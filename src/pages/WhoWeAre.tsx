@@ -26,20 +26,14 @@ const WhoWeAre = () => {
                 <h2 className="text-3xl font-bold mb-6 text-foreground">About Us</h2>
                 <div className="prose prose-lg max-w-none text-foreground">
                   <p className="mb-4">
-                    We are a pioneering organization dedicated to transforming rural India through integrated development
-                    approaches. Since our inception, we have worked tirelessly to improve the lives of millions of families
-                    across multiple states, focusing on sustainable livelihoods, climate action, and community empowerment.
-                  </p>
-                  <p className="mb-4">
-                    Our holistic approach combines scientific research, grassroots implementation, and policy advocacy to
-                    create lasting change in rural communities. We believe in empowering communities with knowledge, resources,
-                    and support to build their own sustainable futures.
-                  </p>
-                  <p>
-                    Through partnerships with government agencies, international organizations, and local communities, we
-                    implement programmes that address the interconnected challenges of agriculture, climate change, water
-                    scarcity, and rural poverty.
-                  </p>
+                   Our NGO’s work is vital to uplift marginalized rural communities by ensuring access to sustainable livelihoods, empowering women, and promoting inclusive development and social equity.
+                    Rural Institute for People’s Enlightenment (RIPE), established on 26th June 1989, is a nonprofit organization working across Chittoor district in Andhra Pradesh and Kolar district in Karnataka.
+                    <p className="mt-4">
+                    RIPE is dedicated to uplifting the poorest and most vulnerable communities, including Scheduled Castes, Scheduled Tribes, women-headed households, child labourers, the elderly, and persons with disabilities.</p>
+                    <p className="mt-4"> The organization promotes sustainable rural development through agriculture and horticulture promotion, women empowerment, natural farming, irrigation and water management, and WASH initiatives.</p>
+                    <p className="mt-4"> It has empowered communities through skill development, FPO formation, health awareness, and capacity building of grassroots organizations. RIPE also contributes to research, monitoring, and evaluation for major rural development projects across Andhra Pradesh.</p>
+                    <p className="mt-4"> With a strong legacy of service, RIPE continues to champion inclusive growth and self-reliance among marginalized populations.</p>
+                    </p>
                 </div>
               </div>
 
