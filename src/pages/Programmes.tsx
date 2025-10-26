@@ -1,4 +1,5 @@
 import { useEffect, useState } from "react";
+import { useSearchParams } from "react-router-dom";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import ProgrammeCard from "@/components/ProgrammeCard";
@@ -17,6 +18,7 @@ const Programmes = () => {
   const [programmes, setProgrammes] = useState<Programme[]>([]);
   const [selectedCategory, setSelectedCategory] = useState<string>("all");
   const [categories, setCategories] = useState<string[]>([]);
+  const [searchParams, setSearchParams] = useSearchParams();
 
   useEffect(() => {
     fetch("/data/programmes.json")
@@ -33,9 +35,29 @@ const Programmes = () => {
           new Set(uniqueProgrammes.map((programme: Programme) => programme.category))
         ).filter((cat): cat is string => Boolean(cat && cat.trim())).sort();
         setCategories(uniqueCategories);
+
+        // Set initial category from URL parameter
+        const categoryParam = searchParams.get("category");
+        if (categoryParam && uniqueCategories.includes(categoryParam)) {
+          setSelectedCategory(categoryParam);
+        } else if (categoryParam === "all") {
+          setSelectedCategory("all");
+        }
       })
       .catch((err) => console.error("Error loading programmes:", err));
   }, []);
+
+  const handleCategoryChange = (category: string) => {
+    setSelectedCategory(category);
+    
+    // Update URL parameter
+    if (category === "all") {
+      searchParams.delete("category");
+    } else {
+      searchParams.set("category", category);
+    }
+    setSearchParams(searchParams);
+  };
 
   const filteredProgrammes = programmes.filter((programme) => 
     selectedCategory === "all" || programme.category === selectedCategory
@@ -62,7 +84,7 @@ const Programmes = () => {
               <div className="flex flex-wrap gap-2">
                 <Button
                   variant={selectedCategory === "all" ? "default" : "outline"}
-                  onClick={() => setSelectedCategory("all")}
+                  onClick={() => handleCategoryChange("all")}
                   className={`text-sm ${selectedCategory === "all" ? "bg-[#004225] hover:bg-[#004225]/90" : ""}`}
                 >
                   All Categories
@@ -71,7 +93,7 @@ const Programmes = () => {
                   <Button
                     key={category}
                     variant={selectedCategory === category ? "default" : "outline"}
-                    onClick={() => setSelectedCategory(category)}
+                    onClick={() => handleCategoryChange(category)}
                     className={`text-sm ${selectedCategory === category ? "bg-[#004225] hover:bg-[#004225]/90" : ""}`}
                   >
                     {category}

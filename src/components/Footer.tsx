@@ -9,7 +9,7 @@ const Footer = () => {
   return (
     <footer className="bg-primary text-primary-foreground">
       <div className="container mx-auto px-4 py-12">
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-5 gap-8">
           {/* About Column */}
           <div>
             <h3 className="text-lg font-semibold mb-4">About Us</h3>
@@ -65,33 +65,65 @@ const Footer = () => {
             </ul>
           </div>
 
-          {/* Programmes */}
+          {/* Programme Categories */}
           <div>
-            <h3 className="text-lg font-semibold mb-4">Our Programmes</h3>
+            <h3 className="text-lg font-semibold mb-4">Programme Categories</h3>
             <ul className="space-y-2 text-sm">
               <li>
-                <Link to="/programmes/sustainable-livestock" className="hover:opacity-80 transition-opacity">
-                  Livestock Development
+                <Link to="/programmes?category=Agriculture & Livelihoods" className="hover:opacity-80 transition-opacity">
+                  Agriculture & Livelihoods
                 </Link>
               </li>
               <li>
-                <Link to="/programmes/water-centric-agriculture" className="hover:opacity-80 transition-opacity">
-                  Water-Centric Agriculture
+                <Link to="/programmes?category=Water & Natural Resource Management" className="hover:opacity-80 transition-opacity">
+                  Water & Natural Resources
                 </Link>
               </li>
               <li>
-                <Link to="/programmes/climate-adaptation" className="hover:opacity-80 transition-opacity">
-                  Climate Adaptation
+                <Link to="/programmes?category=Climate Resilience & Environmental Action" className="hover:opacity-80 transition-opacity">
+                  Climate Resilience
                 </Link>
               </li>
               <li>
-                <Link to="/programmes/agro-biodiversity" className="hover:opacity-80 transition-opacity">
-                  Agro-Biodiversity
-                </Link>
-              </li>
-              <li>
-                <Link to="/programmes/education-skilling" className="hover:opacity-80 transition-opacity">
+                <Link to="/programmes?category=Education, Skilling & Entrepreneurship" className="hover:opacity-80 transition-opacity">
                   Education & Skilling
+                </Link>
+              </li>
+              <li>
+                <Link to="/programmes?category=Health, Nutrition & Sanitation" className="hover:opacity-80 transition-opacity">
+                  Health & Nutrition
+                </Link>
+              </li>
+            </ul>
+          </div>
+
+          {/* Focus Areas */}
+          <div>
+            <h3 className="text-lg font-semibold mb-4">Focus Areas</h3>
+            <ul className="space-y-2 text-sm">
+              <li>
+                <Link to="/programmes?category=Social Empowerment & Community Engagement" className="hover:opacity-80 transition-opacity">
+                  Community Engagement
+                </Link>
+              </li>
+              <li>
+                <Link to="/programmes?category=Governance, Research & Monitoring" className="hover:opacity-80 transition-opacity">
+                  Governance & Research
+                </Link>
+              </li>
+              <li>
+                <Link to="/programmes?category=Technology & Data Systems" className="hover:opacity-80 transition-opacity">
+                  Technology & Data
+                </Link>
+              </li>
+              <li>
+                <Link to="/partners" className="hover:opacity-80 transition-opacity">
+                  Our Partners
+                </Link>
+              </li>
+              <li>
+                <Link to="/documents" className="hover:opacity-80 transition-opacity">
+                  Documents
                 </Link>
               </li>
             </ul>
