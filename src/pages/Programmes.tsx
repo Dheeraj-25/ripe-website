@@ -2,6 +2,7 @@ import { useEffect, useState } from "react";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import ProgrammeCard from "@/components/ProgrammeCard";
+import { Button } from "@/components/ui/button";
 
 interface Programme {
   id: string;
@@ -14,37 +15,31 @@ interface Programme {
 
 const Programmes = () => {
   const [programmes, setProgrammes] = useState<Programme[]>([]);
-  const [filter, setFilter] = useState<string>("All");
+  const [selectedCategory, setSelectedCategory] = useState<string>("all");
+  const [categories, setCategories] = useState<string[]>([]);
 
   useEffect(() => {
     fetch("/data/programmes.json")
       .then((res) => res.json())
-      .then((data) => setProgrammes(data))
+      .then((data: Programme[]) => {
+        // Remove duplicates based on id
+        const uniqueProgrammes = data.filter((programme, index, self) => 
+          index === self.findIndex(p => p.id === programme.id)
+        );
+        setProgrammes(uniqueProgrammes);
+        
+        // Extract unique categories
+        const uniqueCategories = Array.from(
+          new Set(uniqueProgrammes.map((programme: Programme) => programme.category))
+        ).filter((cat): cat is string => Boolean(cat && cat.trim())).sort();
+        setCategories(uniqueCategories);
+      })
       .catch((err) => console.error("Error loading programmes:", err));
   }, []);
 
-
-
-  // Dynamically generate unique categories from programmes data
-  const categories = [
-    "All",
-    ...Array.from(
-      new Set(
-        programmes
-          .map((p) => p.category && p.category.trim())
-          .filter((cat) => !!cat)
-      )
-    ),
-  ];
-
-  const filteredProgrammes =
-    filter === "All"
-      ? programmes
-      : programmes.filter(
-          (p) =>
-            p.category &&
-            p.category.trim().toLowerCase() === filter.trim().toLowerCase()
-        );
+  const filteredProgrammes = programmes.filter((programme) => 
+    selectedCategory === "all" || programme.category === selectedCategory
+  );
 
   return (
     <div className="min-h-screen flex flex-col">
@@ -63,20 +58,26 @@ const Programmes = () => {
         {/* Filter Section */}
         <section className="py-8 bg-muted border-b">
           <div className="container mx-auto px-4">
-            <div className="flex flex-wrap justify-center gap-4">
-              {categories.map((category) => (
-                <button
-                  key={category}
-                  onClick={() => setFilter(category)}
-                  className={`px-6 py-2 rounded-full font-medium transition-all ${
-                    filter === category
-                      ? "bg-primary text-primary-foreground shadow-md"
-                      : "bg-card text-foreground hover:bg-primary/10"
-                  }`}
+            <div className="space-y-6 mb-8">
+              <div className="flex flex-wrap gap-2">
+                <Button
+                  variant={selectedCategory === "all" ? "default" : "outline"}
+                  onClick={() => setSelectedCategory("all")}
+                  className={`text-sm ${selectedCategory === "all" ? "bg-[#004225] hover:bg-[#004225]/90" : ""}`}
                 >
-                  {category}
-                </button>
-              ))}
+                  All Categories
+                </Button>
+                {categories.map((category) => (
+                  <Button
+                    key={category}
+                    variant={selectedCategory === category ? "default" : "outline"}
+                    onClick={() => setSelectedCategory(category)}
+                    className={`text-sm ${selectedCategory === category ? "bg-[#004225] hover:bg-[#004225]/90" : ""}`}
+                  >
+                    {category}
+                  </Button>
+                ))}
+              </div>
             </div>
           </div>
         </section>
